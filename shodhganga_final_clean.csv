@@ -1,0 +1,1384 @@
+shodhganga_final_clean
+Sr No,Topic,Link,Researcher,Keywords,Abstract_Text,Date
+1,Developing Generation Frameworks for Image Description and Text Summerization,https://shodhganga.inflibnet.ac.in/handle/10603/450272,Santosh Kumar Mishra,"Image Captioning, Dense Image Captioning, Image to paragraph generation, Text Summarization, Scientific Document Summarization, Bug Report Summarization, Hindi","Abstract
+
+ 
+Automatic caption generation from images is one of the most challenging tasks in artificial intel-
+ligence. Image captioning models not only tackle object identification problems but also capture
+and express relationships between objects in natural language. This problem is more complex
+than the well-studied image classification and objects classification tasks that have captivated the
+computer vision community’s attention. Image captioning has become a, crucial research subject
+in computer vision and natural language processing due to recent advances in language model-
+ing and object recognition. The generation of captions for images has a significant influence in
+assisting visually impaired persons in comprehending online material.
+
+Most of the existing works on image captioning have been done for resource-rich languages
+such as English. However, there is no work on image captioning in Hindi. Hindi is among the
+world’s oldest languages, spoken mostly in South Asia and India. It is derived from Sanskrit.
+It is the world’s third most spoken language. India has 22 regional languages, making it one of
+the most linguistically rich countries in the world. The Indian constitution has designated 15
+languages of national importance, with Hindi and English as the official languages. Motivated
+by this, we develop various deep-learning-based models to generate textual descriptions in Hindi,
+such as captions, dense captions, and paragraphs.
+
+Multimodal information, such as images and text data, is widely used and becoming more
+popular on social media platforms such as Twitter and Reddit. Methods for gathering information
+from multi-modal data and transforming it into a usable format have benefited data mining and
+natural language processing research. Captioning images and other visual media may be quite
+beneficial in extracting pertinent information. An image captioning framework can be leveraged
+for summarizing multi-modal data. We evaluate the significance of caption to solve scientific
+document summarization and microblog summarization.
+
+This thesis investigates deep learning-based architectures for image captioning, dense image
+captioning, and image to paragraph generation in Hindi. We utilize captions of images and ta-
+bles for scientific document summarization and micro-blog summarization. We propose a novel
+methodology for scientific document summarization using a multi-objective optimization-based
+clustering framework. We also propose a multi-view, multi-objective optimization-based cluster-
+ing method for bug report summarization.",2022
+2,Towards sentiment aware multimodal dialogue systems,https://shodhganga.inflibnet.ac.in/handle/10603/458487,Tulika Saha,"Dialogue System, Virtual Agent, Deep Learning, Reinforcement Learning, Natural Language Understanding, Dialogue Policy Learning, Natural Language Genera- tion, Task-oriented, Multi-domain, Multi-intent, Dialogue Act Classification, Tweet Act Classification, Multi-modality, Sentiment, Emotion, Hierarchical Reinforcement Learning, Options, Attention, Multi-tasking, Mental Health Illness, Depression xiii","Abstract
+
+ 
+
+Dialogue Systems (DS) primarily in the form of rational personal assistants have been
+subject of fundamental interest and challenge to the community of Natural Language
+Processing (NLP) and Artificial Intelligence (AI) researchers. Most of the popular and
+accessible VAs including Apple Siri, Microsoft Cortana, Google Assistant, Amazon Echo
+etc. are adequately trained to handle simple conversations (for example, inquiry for flights,
+restaurants etc.). However, such VAs are inept in managing complex dialogues with the
+increased complexity of the queries of the users. A DS equipped with handling diverse
+nuances of human communication becomes immensely important at time when users more
+than before are resorting to online modes of communication for dealing with everyday
+aspects of life such as online shopping, online restaurant services, mental health care
+facilities, educational services and many other information retrieval portals etc. Thus,
+a DS capable of providing human-like conversational experience to handle complex and
+composite task of the user with the objective of providing maximum user satisfaction in
+terms of task fulfillment and increased user experience is the need of the hour.
+
+This dissertation illustrates novel approaches for creating end-to-end dialogue systems
+for different domains and applications. This thesis primarily explores all the three primary
+modules of the DS namely, Natural Language Understanding (NLU), Dialogue Manage-
+ment and Natural Language Generation (NLG) with the usage of Deep Learning (DL)
+and Reinforcement Learning (RL). As the eventual evaluators of any dialogue systems are
+users, sentiment of the user plays an important role and provides additional information apart from semantics to ensure a fulfilling conversational experience. Thus, sentiment
+(also emotion) is incorporated in every module of the dialogue systems to learn a richer
+representation of user needs and queries and to highlight its effect in task-fulfillment.
+Additionally, multi-modality also forms an important part of this thesis where efforts are
+
+undertaken to explore its effect in different modules of the DS. Consequently, in this thesis,
+our study is also extended to analyze conversations in social media platforms, i.e., Twitter
+in terms of extracting and unveiling valuable information related to human behaviour and
+nature. Extensive experiments have been carried to evaluate the efficacy of the proposed
+approaches on benchmark datasets in terms of several task-oriented metrics.",2021
+3,Automatic authorship identification and profiling,https://shodhganga.inflibnet.ac.in/handle/10603/458496,Chanchal Suman,"Authorship analysis, Authorship identification, Authorship verification, Capsule, Convolution neural network, Gender prediction, Personality prediction, Long short term memory, Attention, Multi-modal, Multi-tasking, Emotion xiv","Abstract
+
+ 
+
+Since the dawn of social media platforms, our personas on the internet have increasingly become
+a more significant part of our true selves. Constant changes in social media platforms have re-
+sulted in new forms of social interactions. Anonymous writing is one of these forms, increasing
+malicious and suspicious actions. The suspect’s anonymity has made it harder to locate the
+suspect. Analyzing the author’s traits and their identity is known as authorship analysis. Secu-
+rity, personalized recommender systems, marketing, forensics, ctc., are some of the well-known
+application areas of authorship analysis. We have proposed different systems for three different
+sub-problems of authorship analysis. These are i) authorship identification, ii) author profiling,
+and iii) authorship verification. Users utilize various social media platforms such as Twitter, Face- book, Instagram, and others regularly to share their daily activities. Moreover, users often post
+images and text on different social media platforms; thus, the usage of multi-modal information
+is widespread nowadays. Authorship analysis has attracted a lot of attention due to its various
+applications. But, most of the works are based on the standard style-based features and tested
+on long documents. Extracting hand-crafted features is both costly and time-consuming. Thus,
+the development of systems for the automatic analysis of author’s traits has become crucial. The
+current thesis has attempted to develop some deep learning-based authorship analysis systems
+dealing with multi-modal social media data.
+
+The first section of this thesis talks about authorship identification. Different convolutional
+neural network (CNN) based approaches are developed using tweets and scholarly abstracts.
+Capsule networks have been utilized in the CNN frameworks. A scholarly abstract-based dataset
+is collected for the author’s identification. Using the capsule-based CNN network, we have also
+predicted the author for the abstract. We also present different analyses of our developed system,
+
+which improves the interpretation ability of our developed system. Heat maps for different models illustrate the relevant text fragments for the prediction task.
+
+In the second section of this thesis, we have extensively focused on author profiling. Chapter
+4 and Chapter 5 deal with gender prediction. The neural network-based multi-modal approaches
+are developed for predicting gender. PAN-2018 Author profiling dataset is used for evaluating the
+developed models. Manual analysis has also been carried out to identify different users’ writing
+patterns. Users of different gender have a different ways of expressing emotions. Based on this
+intuition, we have developed different emotion-aware gender prediction systems. The existing
+PAN-2018 dataset is enriched with emotion labels to develop emotion-aware systems. In chapter
+6, we have dealt with the apparent personality prediction via short videos. The First Impressions
+V2 (ECCV) dataset is used for the implementation. Different features are extracted from audio,
+video, and transcript of a given sample. We have also enriched the First Impression V2 dataset
+with emotion labels for analyzing the effects of emotion labels on personality prediction. Results
+show that the performance of models developed using the emotion features is comparable to those
+with no information about emotion labels.
+
+The last section talks about authorship verification. We have developed a siamese-based
+architecture for verifying the authenticity of the suspect document. In the last contributing
+chapter of this thesis, we have described the Twitter-based corpus and the siamese architecture
+proposed for solving the authorship verification task. The relevance of feature selection using an
+‘is is done to support the obtained attention mechanism is also shown. Finally, a rigorous anal:
+results.
+
+Throughout the thesis, we have briefly analyzed the performance of our proposed architectures
+by comparing them against various baselines and state-of-the-art methods. Simultaneously, the
+statistical significance test is also carried out to prove the supremacy of our proposed methods
+over existing methods.",2022
+4,Social Media Analysis Techniques for Improving the Quality of Journalism,https://shodhganga.inflibnet.ac.in/handle/10603/450178,Roshni Chakraborty,"network stratification summarization algorithm, community detection, pseudo-relevance feedback, signed network, GAN framework, user involvement indices, userreactionindices,socialyield,stancedetection,targetidentification,structuralbalance theory, link prediction. xiii","Abstract
+Withincreasingdigitization,thenewsconsumptionbehaviourofthereadersarewitnessing
+a major transformation. There is a growing popularity of digital news contents and online
+social media platforms like Twitter are being heavily used for exchanging information
+and opinions related to contents published in the news articles. Therefore, news media
+agencies require to focus both on the contents as well as the interest of the readers in
+the social media to drive their news popularity. Thus there is a need to build automated
+systems to capture the relevant information from the user generated contents that can
+provide comprehensive feedback about the news items as well as help in predicting their
+future popularity. Moreover, these information may also be used for determining stance
+or news preferences of readers that may help in providing personalized services. However,
+extracting relevant information from the tweets is a challenging task due to several reasons
+that include enormous volume of the generated contents as well as the large vocabulary of
+the tweets. In this thesis, we focus on developing techniques to investigate tweets related
+to different news contents for four major objectives: capturing a summary of the audience
+reactions, predict the popularity of news articles, identify individual users stance towards
+a news event and identify users in social media with similar preferences. We initially
+develop graph based summarization approach that can capture and summarize reader
+reactions towards the news items. These summaries can be subsequently used to gain
+insights about critical aspects that are likely to draw user attention. We also study the
+different facets of user behaviour on Twitter that helps in predicting the future popularity
+of the news items. We subsequently focus on individual reader reactions and propose
+a signed network based approach for identifying their stance towards news items. We
+finally develop novel methods to determine reader similarities (dissimilarities) that may
+be important for several personalized services like news recommendation. We rigorously
+validate the performance of the proposed approaches by comparing with existing state-of-
+the-art research works.",2019
+5,Learning to answer multilingual and code mixed questions,https://shodhganga.inflibnet.ac.in/handle/10603/458224,Deepak Kumar Gupta,"Multilingual QA, Code-Mixed Languages, Question Answering, Natural Language Processing","Abstract
+Question-answering (QA) that comes naturally to humans is a critical component in seamless human-computer interaction. It has emerged as one of the most convenient and natural methods to interact with the web and is especially desirable in voice-controlled environments. Despite being one of the oldest research areas, the current QA system faces the critical challenge of handling multilingual queries. To build an Artificial Intelligent (AI) agent that can serve multilingual end users, a QA system is required to be language versatile and tailored to suit the multilingual environment.
+Recent advances in QA models have enabled surpassing human performance primarily due to the availability of a sizable amount of high-quality datasets. However, the majority of such annotated datasets are expensive to create and are only confined to the English language, making it challenging to acknowledge progress in foreign languages. Therefore, to measure a similar improvement in the multilingual QA system, it is necessary to invest in high-quality multilingual evaluation benchmarks. In this dissertation, we focus on advancing QA techniques for handling end-user queries in multilingual environments. To achieve this goal, we create multilingual benchmark setups, and develop computational models using the concept of deep neural network techniques to extract the answer for multilingual questions from the text or image data sources.
+This dissertation consists of two parts. In the first part, we explore multilingualism, and a new dimension of multilingualism referred to as code-mixing. Towards this, we create the high-quality benchmark dataset required for multilingual question answering (MQA) systems in English, Hindi, and code-mixed English-Hindi languages. Addition-ally, we develop a unified deep neural network framework to retrieve the multilingual answers by exploring the attention-based recurrent neural network to generate the effective representation of multilingual questions and documents. We also extend the study of multilingualism to visual question answering (VQA) by exploring and analyzing the weakness of the existing VQA systems. We create a VQA dataset supporting the En-glish, Hindi, and English-Hindi code-mixed languages. We propose a unified architecture to better encode the multilingual and code-mixed questions by introducing a hierarchy of shared layers. We control the behavior of these shared layers by an attention-based soft layer sharing mechanism. Our proposed approach can answer the language variant end-users' query in VQA.
+In the second part of this dissertation, we investigate how we can further enhance the performance of the current QA systems by solving multiple related QA subtasks. To attain this, first, we focus on advancing the semantic question matching by introducing and augmenting the taxonomy knowledge into the deep neural network framework. Second, we propose the technique to solve the task of multi-hop question generation by exploiting multiple documents. We employ multitask learning with the auxiliary task of answer-aware",2020
+6,Resource augmentation and performance improvement in machine translation,https://shodhganga.inflibnet.ac.in/handle/10603/458227,Debjyoty Banik,"Machine Translation, Neural Machine Translation, Low-Resource Languages, Natural Language Processing","Automated machine translation (MT) helps to break the language barrier. People can communicate easily among themselves for administrative, business and social needs. In this thesis, we address various strategies of machine translation involving English and Indian languages, especially English and Hindi. These tasks are the building blocks of multilingual natural language processing applications.
+Primary aim of this thesis is to improve machine translation quality in optimal time.
+Mainly we used data driven approach for this task. Machine translation using the data driven approach, requires large amount of parallel text. Limited parallel corpora hinder the ability of statistical machine translation or neural machine translation systems to acquire bilingual mappings. Though comparable corpora are comparatively easy to find from the web, manually preparing parallel corpora is a costly and time taking job. So, we propose an automatic technique to prepare the parallel corpora from the comparable corpora before building the machine translation system. Then we propose a joint probability based model to improve the machine translation quality with injecting linguistic information into the statistical machine translation system.
+Speed is another parameter to judge the machine translation system's quality. Efficiency of machine translation system depends on accuracy of the translated outputs and required decoding time. The speed mainly depends on the decoder. We modified machine translation decoder to improve translation quality and decoding time. We introduce machine learning based optimized pruning approach for statistical machine translation decoding. This approach automatically identifies the proper stack size and beam threshold values for decoding of a specific text. Then, the beam search algorithm is executed on the top of translation model and language model using identified stack size and threshold values to achieve better translated output.
+Every machine translation system has their own advantages. It is very difficult to handle maximum challenges by one of either SMT system or NMT system. Combine outputs of different machine translation system is good option for accuracy improvement. We solve this problem using hybridization techniques. System combination of translated outputs takes active role for the hybridization. We combine outputs of different MT system using system combination approach for farther qualitative improvement of translated out-put. The system combination approach is two types: statistical-based and neural-based.
+Again, each system combination approach has its own strength. We assemble the outputs",2019
+7,Investigations in aspect based sentiment analysis,https://shodhganga.inflibnet.ac.in/handle/10603/458228,Asif Akter ,"Aspect-Based Sentiment Analysis, Sentiment Analysis, Opinion Mining, Deep Learning","Since the advent of the world wide web, the world has witnessed an unprecedented amount of online content generated by its users. The phenomenal growth of e-commerce has significantly contributed in terms of user-written product and service reviews. Social media platforms are another source of user-written text. Identifying the sentiment orientations, e.g., positive and negative, is traditionally known as sentiment analysis. This information, often, leads a user to make an informed decision on whether to acquire the service/product or not. Similarly, an organization can utilize such information to refine or improve its product or service, and also it can forecast the economic situation much better. Most of the existing works on sentiment analysis have mainly focused on the document or sentence level, and there are very few attempts for analyzing sentiments at the attribute or aspect-level. Also, research on Indian languages is not at par with English or other European languages. Motivated by this, in this thesis, we investigate novel algorithms for aspect based sentiment analysis involving Indian, European, and English languages. To this end, we have proposed several traditional supervised machine learning as well as deep learning-based approaches. We have also explored the multi-lingual and cross-lingual paradigms of machine learning to bridge the language divergence for the sentiment analysis. We have evaluated our approaches on user-reviews in the product and service domain. Experimental results and analyses establish the effectiveness of our proposed methods for multiple languages.",2019
+8,Investigations into Affect and Novelty Aware Misinformation Detection,https://shodhganga.inflibnet.ac.in/handle/10603/539117,Rina Kumari,"MisinformationDetection,AffectInformation,NoveltyPrediction,EmotionRecog- nition, Sentiment Prediction, Multitasking, Multimodality, Multimodal Feature Fusion, Con- trastiveLearning, VisualEmotion, NaturalLanguageProcessing, DeepLearning, Images, Audio, Video xiv","Abstract
+Fake news articles contain manipulated textual or multimedia content to mislead readers. It has
+created a threat to democracy, journalism, health, and many other social events and activities
+that directly or indirectly puts people and communities at high risk. In this era of social media,
+combating the spread of misinformation fake news is one of the most desperate challenges for
+the Natural Language Processing (NLP) community. The term fake news can be concerned with
+severalformsofcontent. Itcanbeabiasednewsarticle,adoctoredimage,amisleadingvideothat
+does not exhibit a reality or even blatantly posts false content on social media. Therefore, news
+contentanalysisisoneofthecriticalproblemsinthisarea. Usually,fakenewsgrabsourattention
+and hijack memory and learning circuitry, which further influences its spread, but its most vital
+sellingpointisitsabilitytoappealtoouremotions. Concerningthecontentanalysis,investigation
+in Novelty and Affect analysis (Emotion and Sentiment) forms an important dimension of fake
+news detection. This thesis builds upon fake news/misinformation content analysis standing on
+the shoulders of Novelty and Affect analysis.
+The first problem we investigate as a part of this dissertation is Novelty and Emotion
+Aware Misinformation Detection. The main objective of this work is to investigate the
+element of surprise andemotion bias infakeandrealnews. Wesetouttostudytheroleoftextual
+novelty and emotions from an NLP perspective to classify misinformation content automatically.
+To do so, we re-purpose textual entailment for novelty detection and use the models trained on
+large-scale datasets of entailment and emotion to classify fake information. We implement this
+work as a pipelined two-staged architecture that focuses on extracting the novelty and emotion-
+aware features first and incorporates those features into a classification model for the final fake
+news prediction.
+The second problem we investigate as part of this thesis is A Multitask Framework for
+Misinformation Detection. Literature reveals that the mutual learning of two or more tasks
+enhances the performance of each task through shared representation. As the second contribu-
+tion of this thesis, we solve emotion recognition, sentiment prediction, novelty detection, and
+misinformation detection in a multitask fashion instead of a pipe-lined approach. The primary
+motivationistocapturetheinter-relatednessofthesetasksthroughunderlyingneurallayersthat
+improvetheperformanceofalltasks. Incontrasttoindividualmodels,multitaskframeworksgive
+better performance. It also saves time and resources by performing these tasks simultaneously.
+Though only the textual information is insufficient to detect fake multimedia news, we intend to
+design multimodal approaches in the next part of this thesis.
+As multimedia content is more convenient than text, users share image and video embedded
+information on social media platforms. By taking advantage of such human cognition, fake
+news is being circulated rapidly on social media nowadays. It motivates us to solve the next
+objective of this thesis, in which we explore the correlation between visual modality and textual
+modality for multimodal fake news detection. We name this problem as Multimodal Fake
+News Detection. The visual clue and textual-visual correlation are the key aspects, helping in
+xiiithecreationofmorereliablesystemsformultimodalfakenewsdetection. Thisstudyextractsthe
+textual features using the pre-trained Bidirectional Encoder Representations from Transformers
+(BERT) model and visual features using the pre-trained VGG19 model. This work introduces
+a multimodal fake news detection framework with appropriate multimodal feature fusion that
+leveragesinformationfromtextandimageandmaximizesthecorrelationbetweenthemtogetthe
+efficient multimodal shared representation. We empirically show that text, when combined with
+theimage, canimprovethemodel’sperformance. Thisworkmajorlyconcentratesonmultimodal
+feature fusion for multimedia fake news detection. Although the proposed model is very efficient,
+it lacks in detecting misleading fake news, including the authentic image or video of an event
+posted on social media in the context of another similar event. We intend to solve this specific
+multimedia misleading news detection problem in the near future.
+The fourth problem we investigate as part of this thesis is the Novelty and Emotion
+Inspired Multimodal Fake News Detection. This work focuses on detecting fake news
+having a non-novel image with novel text. Detecting this type of misleading fake multimedia
+news is almost impossible without prior knowledge. In addition to this, novel and emotion-
+invoking contents are the potential factors that work as fuel for rapid dissemination of fake news.
+Existing approaches have not been designed for this specific dimension of fake news detection in
+a multimodal setup. To fulfill this gap, first, we introduce a novel multimodal fake news dataset
+which includes background knowledge of the misleading articles. Second, we design a multimodal
+framework using Supervised Contrastive Learning (SCL) based Novelty Detection and Emotion
+Prediction tasks for fake news detection. This work exploits the news content, background
+information, and visual emotion for misinformation detection. Thus, the primary goal of this
+work is to find the credibility information of viral news with respect the similar verified news.
+We perform extensive experiments to reveal that our proposed model outperforms the state-of-
+the-art (SOTA) models. Besides text and image information, video is also a prominent modality
+in news and stories. We intend to solve the video embedded misinformation detection problem
+in near future as the last contribution of this thesis.
+The final investigation we perform in this thesis is the Video-Embedded Misinformation
+Detection to detect fake multimedia news, including video modality. Due to the lack of video-
+based resources, we first create a dataset consisting of video information and textual description.
+Latter, we present a deep multitask framework dedicated to video embedded multimodal fake
+news detection. We also consider the audio as an additional modality to enhance the multimodal
+representation. As fake news contains implicit emotions, we implement a multitask set-up to
+investigate the relatedness between these two tasks. It reveals that investigating emotion and
+fake news together in a multitask framework yields state-of-the-art (SOTA) performance than
+existing approaches.
+Throughout the thesis, we have briefly analyzed the performance of our proposed architec-
+tures. Wehaveprovidedafaircomparisonagainstvariousbaselinesand state-of-the-artmethods
+forvariousperformancemetrics. Simultaneously, wehavealsocarriedoutadetailedmanualeval-
+uation of the results obtained from our proposed algorithms.",2022
+9,Towards Scalable Interoperable and Secure Blockchain based Decentralized Applications,https://shodhganga.inflibnet.ac.in/handle/10603/612515,Swagatika Sahoo,"Blockchain Technology, Ethreum, Hyperledger Fabric, Smart Contract, Scalability,Security,Interoperability,AccessControl,SmartCity. xiii","Abstract
+PosttheadventofBitcoinin2008,Blockchainhasemergedasapromisingandrevo-
+lutionarytechnologythataimsatbuildingatrustedsysteminanuntrustedworld. The
+pivotalmoment,inparticular,wasobservedin2015whenEthereumintroducedtheno-
+tionofsmartcontractthateliminatesintermediariesandencouragethedevelopmentof
+decentralizedapplicationswithenhancedintegrityandtrustacrossdiverseindustries.
+Despiteitssubstantialgrowth,blockchaingrappleswitharangeofchallenges,includ-
+ingscalability,interoperability,andsecurity. Eventhoughsubstantialresearchattempts
+in these directions have been observed in the recent past, there are certain critical sce-
+narioswhicharenotpaidadequateattention. Someofthemincludescalabilitysolution
+for rapidly growing large-scale blockchain network, unified interoperable blockchain
+solution where a number of heterogeneous smart city sectors are involved, and de-
+centralized access authorization to the controlled resources in a federated blockchain
+environment. Tothisaim,ourmaincontributionsinthisthesisare: (1)developmentof
+ahierarchicalblockchainmodelenrichedwiththeAbstractInterpretationsframework
+to enhance scalability for large-scale blockchain network; (2) an integrated and inter-
+connected hybrid platform for blockchain interoperability, with a specific focus on a
+comprehensivesmartcitysolutionthatencompassespivotalsectorssuchasHealthcare,
+LandRegistry,LawEnforcement,VehicleandTransportation,andWasteManagement.
+Further, we also introduce decentralized solutions to a few more smart-city sectors,
+including smart agriculture, e-waste management, big data marketplace, and insur-
+ance subrogation; and (3) a scalable and configurable middleware service to foster
+theautomaticmigrationofaccesscontrolpoliciesfromtraditionaltoblockchain-based
+federatedsystems,ensuringthedeploymentofverifiedanomaly-freepolicysmartcon-
+tracts. We build the working prototypes of our above-mentioned proposals using two
+mostpopularblockchainplatforms,namelyEthereumandHyperledgerFabric,andwe
+ff
+conductanextensiveexperimentalevaluationtodemonstratetheire ectivenessusing
+Hyperledger Caliper blockchain benchmarking tool. Interestingly, the experimental
+results demonstrate that: (1) there is a significant reduction in transaction and block
+sizeobservedwhileabstractedinthedomainofintervals. Moreover,theselectionofthe
+ff ffi
+right abstract domain involves a trade-o between precision and e ciency of various
+operations over the blockchain; (2) the read latency for inter blockchain transactions is
+ff
+four times more than that of intra blockchain, whereas the throughput is not a ected
+forreadtransactions. However,writelatencyforbothinterandintra-blockchaingrows
+linearlywiththeincreaseintransactions’sendrate. Ontheotherhand,thethroughput
+ff
+for write transactions is slightly a ected, experiencing a 7% decrease at the maximum
+sendrateof300TPS;(3)thereisanincreaseintranslationcostfromXACMLtoSolidity
+and vice-versa as policy size grows. The generated federated policy smart contracts
+by the middleware exhibit reasonable deployment and execution gas cost. Moreover,
+theperformanceofthefederatedaccesscontrolsystem,asindicatedbythebenchmark
+reports of Hyperledger Caliper is encouraging, with a maximum throughput of 437
+TPSandamaximumlatencyof1.31seconds.",2024
+10,Understanding Geographical Phenomena and Its Applications Using Online Social Networks,https://shodhganga.inflibnet.ac.in/handle/10603/612434,Rimjim,"Geographic Information Retrieval/ Science, Ethnographic Study, Online Social Media, Geographical Distance, Spatial Spread, Point Of Interest, Culture, Gender Based Violence, Twitter, Location Tagging, Computational Geography, Geography. xiv","Abstract
+The study of different geographies such as different countries, states, cities has always
+been of utmost interest. The exploration of different geographies and associated human
+behaviour helps in improvising the overall living standard of human civilization. For
+example, the exploration of topic of discussion across different geographies unveils inter-
+esting cultural traits of a geography and hence helps in policy making in accordance with
+cultural traits of a geography. Additionally, the investigation of people and places also
+helps in efficient targeted advertisement, targeted news, and many other location based
+services. The analysis and understanding of the science of people across geography helps
+in upgrading the social, cultural, and economical standard of people.
+As the human civilization is growing and developing, there have been related con-
+temporary ethnographic researches. However, those studies had limited scope in terms
+of number of people participated and also in terms of span of geography that was con-
+sidered. Moreover, those were based on predefined set of questionnaire which might not
+be very relevant to the participants and hence the acquired answer is also doubtful. In
+recent days, there have been an explosion of usage of online social networks. Online social
+network captures multiple dimension of human behavior and hence heavy usage of online
+socialnetworkshaveacceleratedresearcharoundhumanbehaviour. Theseresearcheshave
+gained further momentum with availability of location-tagged online social network data.
+The usage of location-tagged social network data for different ethnographic study has sev-
+eral challenges and limitations such as data sparsity, biases, incomplete information and
+many more. In this thesis, we solve a few of these challenges by proposing geographic
+information retrieval and analyzing techniques to add to the existing knowledge about
+different geographies and geographical phenomena. We are trying to provide an analyti-
+cal study that might help in policy making, targeted advertisement as well as improving
+LBS.
+Withthisregard, wetrytoachievetwomajorobjectivesinthisthesisi. Understanding
+theimpactandroleofgeographyusingonlinecontentii. Improvinglocation-basedservices
+tomakethelifebetter. Forthefirstobjective, wefirstinvestigateifgeographystillmatters
+in the small-world of online social networks. Finding that there is still an evident role of
+geography in online world, we try to utilize the same for finding evidences of confluence
+between associated culture of a geography and the persisting gender based violence in the
+geography. From the first objective, we find that the real-world impact of geography is
+also visible in the online social network. Inspired from this, we design our second objective
+in which we try to ease out the day to day human life by making predictions related to
+human activity and interests using online social network data. Here, we first try to predict
+the category of a location which reflects associated human activity with a location such
+xiiias restaurant, resident, and professional place. Knowing the category of a place eases
+out day to day tours and activities. Next, we propose prediction model for predicting
+the geographical spread of online content which captures the regions of interest of people
+towards a particular content. Prediction of geographical spread helps in understanding
+diffusion process across geography which aids in region-specific marketing, advertisement,
+news, and campaigns. Towards this end, in this thesis, we try to solve four particular
+objectives in this thesis: i. Understanding the impact of geographical distance in online
+discussions ii. Verifying the hypothesis of confluences between culture and persisting
+gender based violence in a country, iii. Improving location based services by automated
+tagging of information category to location and iv. Predicting spatial spread on social
+media.",2022
+11,Towards Human Learning Inspired Intelligent Virtual Assistant,https://shodhganga.inflibnet.ac.in/handle/10603/612443,Abhisek Tiwari,"Conversational AI, Dialogue System, Virtual Assistant, Dialogue Management, Reinforcement Learning, Task-Oriented Dialogue System, Automatic Disease Diagnosis, Symp- tom Investigation, Multi-modality, Knowledge Infusion, Clinical Conversation Summarization xiii","Abstract
+Developing an adequate and human-like virtual assistant has been one of the primary applica-
+tions of artificial intelligence. Both research and industry communities have put forth significant
+effort in this regard over the years. In the last few years, these assistants have gained immense
+popularity in a range of settings, from facilitating mundane tasks such as making restaurant
+reservations and shopping online to tackling more intricate challenges like investigating symp-
+toms and identifying diseases at an early stage. We learn a task more efficiently and quickly
+in real life when we are guided by an experienced individual or simply by a learning guide-
+line. Similarly, an autonomous agent can also learn more effectively if it incorporates some
+human learning-inspired principles in addition to learning from raw data. We proposed and built
+different dynamic goal-oriented persuasive virtual assistants adopting human agents’ behavior-
+inspired methodologies, which alleviated some major limitations of existing virtual assistants
+and enhanced virtual assistants’ capabilities by instilling cooperative and persuasive goal-setting
+aspects. We investigated two important aspects of persuasion: the efficacy of contextualized
+persuasion and multimodal-enabled personalized dialogue generation over fixed strategy-driven
+unimodal persuasive assistant. Several recent studies have revealed a shortage of healthcare
+professionals for medical services, leading to disruptions in the delivery of healthcare services.
+In response to these scenarios, our work has been focused on building a conversational medical
+assistant that aids doctors in conducting thorough symptom investigations and making accu-
+rate diagnoses. Inspired by the diagnostic practices of doctors, we have explored fundamental
+research questions about symptom investigation and disease diagnosis in autonomous settings.
+Subsequently, we have integrated these behaviors into our medical diagnostic assistant, which
+has shown a significant improvement over existing traditional virtual assistants. The proposed
+diagnosis assistants incorporated with such learning result in a significant improvement of 2-9%
+across all evaluation metrics, including human evaluation, which firmly establishes the efficacy
+of these learning methodologies. While autonomous assistants assist in the initial exploration
+of symptoms, understanding the dialogue between patients and doctors continues to be a time-
+consuming process. To address this, we propose and build a knowledge-enhanced, multi-task,
+multimodal model designed to identify medical departments and generate summaries of con-
+versations. The extensive set of experiments, both quantitatively and qualitatively, led to the
+following findings: (a) critical significance of visuals, (b) demographic information and external
+knowledge infused clinical conversation summarization, and (c) a correlation between medical
+department identification and clinical synopsis generation.",2024
+12,Enhancing Dialogue Generation Models Via Multi Source Heterogeneous Information,https://shodhganga.inflibnet.ac.in/handle/10603/612433,Indian Institute,"Dialogue Systems, Conversational Agents, Natural Language Generation, Open-Domain Dialogue Generation, Task-oriented Dialogue Systems, Medical Dialogue Generation, Emotion, Knowledge Graphs, Images, BERT, BART, BioBERT. xiv","Abstract
+One of the fundamental goals in the field of Artificial Intelligence is to create machines
+thatcaninteractwithpeopleusingnaturallanguage, makingresearchonvirtualassistants
+and dialogue systems a top priority for both industry and academia. Dialogue systems
+have emerged as a vital tool that helps people with their everyday tasks. Language
+Modeling and Natural Language Generation techniques have advanced rapidly, allowing
+for completely data-driven conversation models that produce natural language responses
+directly. Building end-to-end dialogue models has been a long interest of natural language
+research. However, it is a common problem that these dialogue generation models may
+devolve into boring and repetitive material, resulting in off-topic and pointless responses
+in conversation assistants. In order to understand and generate coherent dialog, it is
+necessary to base it on extra information such as aspects, emotion, sentiment, images, and
+structuredandunstructuredknowledge. ThisthesismainlyfocusesonenhancingDialogue
+Generation Models via Multi-Source Heterogeneous Information in multiple domains.
+Emotionplaysanessentialroleinhumancommunication, anditcansignificantlyaffect
+the content and tone of a conversation. However, incorporating emotion into dialogue
+generation is challenging due to the subjective nature of emotions and the difficulty in
+representing them computationally. As part of this thesis, the first problem we investigate
+is eliciting emotion in responses. We propose to build a deep multi-task framework that
+combines emotion classification and response generation for the task of emotion-controlled
+dialog generation. Review-based knowledge refers to information extracted from user
+reviews, which can be useful for providing personalized recommendations and answering
+specific questions. However, review data often contain noise and irrelevant information
+that can negatively impact the performance of dialogue systems. The second problem
+we investigate as part of this thesis is incorporating unstructured review information into
+dialogue systems. We propose a method that utilizes the aspects and sentiments of the
+user to filter review-based knowledge and develop a complete end-to-end dialogue system
+that highlights the importance of various modalities in task-oriented settings, specifically
+for booking hotels. We also propose an extension of the existing Multi-domain Multi-
+modal Dialogue (MDMMD) dataset by annotating the utterances with sentiment labels
+and grounding the conversations with review-based knowledge.
+The integration of both emotional and external knowledge elements can significantly
+enhance the conversational experience for users, resulting in more meaningful and engag-
+ing interactions. The contextual information provided by these elements enables dialogue
+systems to understand the user’s needs and preferences, leading to the generation of more
+relevant responses. The third problem we choose for investigation in this thesis is to build
+xiiia comprehensive framework for generating dialogue that integrates both emotion and ex-
+ternal knowledge. The framework utilizes the Topical Chat and Document Grounded
+Conversation dataset and employs a multiple-discriminator Generative Adversarial Net-
+work (GAN) training approach.
+The next part of the thesis focuses on exploring the use of structured knowledge from
+knowledge graphs to enhance dialogue generation models. We focus on utilizing the rela-
+tionships between entities in the knowledge graph to generate more coherent and contex-
+tually appropriate responses in the medical domain. We create a new medical knowledge
+graph by using the Unified Medical Language System (UMLS) database and supplement
+it with additional medical entities identified using Bidirectional Encoder Representations
+from Transformers (BERT) - based medical entity prediction models. We propose two ap-
+proaches that leverage pre-trained language models for fusing knowledge graphs in order
+to generate medically relevant dialogues. The final investigation we perform in this thesis
+addresses the challenging task of combining both structured and unstructured knowledge.
+By combining both structured and unstructured knowledge, we can improve our ability to
+interpret and understand complex linguistic patterns in dialogues, leading to more accu-
+rate and contextually appropriate responses in dialogue systems. These patterns can be
+challenging to understand and interpret without context and relevant knowledge. We pro-
+pose a novel multi-hop attention-based end-to-end dialogue model for understanding and
+interpreting linguistic patterns in dialogues, such as ellipsis, anaphora, and co-references.
+Overall, this thesis contributes to the ongoing research on dialogue generation and
+provides valuable insights into how multiple sources of heterogeneous information can
+be utilized to enhance the quality of dialogue models. The proposed approaches have the
+potential to significantly improve the performance of dialogue systems in various domains,
+making them more effective and useful for everyday tasks.",2023
+13,Investigations into affect and novelty aware misinformation detection,https://shodhganga.inflibnet.ac.in/handle/10603/463994,Rina Kumari,"MisinformationDetection,AffectInformation,NoveltyPrediction,EmotionRecog- nition, Sentiment Prediction, Multitasking, Multimodality, Multimodal Feature Fusion, Con- trastiveLearning, VisualEmotion, NaturalLanguageProcessing, DeepLearning, Images, Audio, Video xiv","Abstract
+Fake news articles contain manipulated textual or multimedia content to mislead readers. It has
+created a threat to democracy, journalism, health, and many other social events and activities
+that directly or indirectly puts people and communities at high risk. In this era of social media,
+combating the spread of misinformation fake news is one of the most desperate challenges for
+the Natural Language Processing (NLP) community. The term fake news can be concerned with
+severalformsofcontent. Itcanbeabiasednewsarticle,adoctoredimage,amisleadingvideothat
+does not exhibit a reality or even blatantly posts false content on social media. Therefore, news
+contentanalysisisoneofthecriticalproblemsinthisarea. Usually,fakenewsgrabsourattention
+and hijack memory and learning circuitry, which further influences its spread, but its most vital
+sellingpointisitsabilitytoappealtoouremotions. Concerningthecontentanalysis,investigation
+in Novelty and Affect analysis (Emotion and Sentiment) forms an important dimension of fake
+news detection. This thesis builds upon fake news/misinformation content analysis standing on
+the shoulders of Novelty and Affect analysis.
+The first problem we investigate as a part of this dissertation is Novelty and Emotion
+Aware Misinformation Detection. The main objective of this work is to investigate the
+element of surprise andemotion bias infakeandrealnews. Wesetouttostudytheroleoftextual
+novelty and emotions from an NLP perspective to classify misinformation content automatically.
+To do so, we re-purpose textual entailment for novelty detection and use the models trained on
+large-scale datasets of entailment and emotion to classify fake information. We implement this
+work as a pipelined two-staged architecture that focuses on extracting the novelty and emotion-
+aware features first and incorporates those features into a classification model for the final fake
+news prediction.
+The second problem we investigate as part of this thesis is A Multitask Framework for
+Misinformation Detection. Literature reveals that the mutual learning of two or more tasks
+enhances the performance of each task through shared representation. As the second contribu-
+tion of this thesis, we solve emotion recognition, sentiment prediction, novelty detection, and
+misinformation detection in a multitask fashion instead of a pipe-lined approach. The primary
+motivationistocapturetheinter-relatednessofthesetasksthroughunderlyingneurallayersthat
+improvetheperformanceofalltasks. Incontrasttoindividualmodels,multitaskframeworksgive
+better performance. It also saves time and resources by performing these tasks simultaneously.
+Though only the textual information is insufficient to detect fake multimedia news, we intend to
+design multimodal approaches in the next part of this thesis.
+As multimedia content is more convenient than text, users share image and video embedded
+information on social media platforms. By taking advantage of such human cognition, fake
+news is being circulated rapidly on social media nowadays. It motivates us to solve the next
+objective of this thesis, in which we explore the correlation between visual modality and textual
+modality for multimodal fake news detection. We name this problem as Multimodal Fake
+News Detection. The visual clue and textual-visual correlation are the key aspects, helping in
+xiiithecreationofmorereliablesystemsformultimodalfakenewsdetection. Thisstudyextractsthe
+textual features using the pre-trained Bidirectional Encoder Representations from Transformers
+(BERT) model and visual features using the pre-trained VGG19 model. This work introduces
+a multimodal fake news detection framework with appropriate multimodal feature fusion that
+leveragesinformationfromtextandimageandmaximizesthecorrelationbetweenthemtogetthe
+efficient multimodal shared representation. We empirically show that text, when combined with
+theimage, canimprovethemodel’sperformance. Thisworkmajorlyconcentratesonmultimodal
+feature fusion for multimedia fake news detection. Although the proposed model is very efficient,
+it lacks in detecting misleading fake news, including the authentic image or video of an event
+posted on social media in the context of another similar event. We intend to solve this specific
+multimedia misleading news detection problem in the near future.
+The fourth problem we investigate as part of this thesis is the Novelty and Emotion
+Inspired Multimodal Fake News Detection. This work focuses on detecting fake news
+having a non-novel image with novel text. Detecting this type of misleading fake multimedia
+news is almost impossible without prior knowledge. In addition to this, novel and emotion-
+invoking contents are the potential factors that work as fuel for rapid dissemination of fake news.
+Existing approaches have not been designed for this specific dimension of fake news detection in
+a multimodal setup. To fulfill this gap, first, we introduce a novel multimodal fake news dataset
+which includes background knowledge of the misleading articles. Second, we design a multimodal
+framework using Supervised Contrastive Learning (SCL) based Novelty Detection and Emotion
+Prediction tasks for fake news detection. This work exploits the news content, background
+information, and visual emotion for misinformation detection. Thus, the primary goal of this
+work is to find the credibility information of viral news with respect the similar verified news.
+We perform extensive experiments to reveal that our proposed model outperforms the state-of-
+the-art (SOTA) models. Besides text and image information, video is also a prominent modality
+in news and stories. We intend to solve the video embedded misinformation detection problem
+in near future as the last contribution of this thesis.
+The final investigation we perform in this thesis is the Video-Embedded Misinformation
+Detection to detect fake multimedia news, including video modality. Due to the lack of video-
+based resources, we first create a dataset consisting of video information and textual description.
+Latter, we present a deep multitask framework dedicated to video embedded multimodal fake
+news detection. We also consider the audio as an additional modality to enhance the multimodal
+representation. As fake news contains implicit emotions, we implement a multitask set-up to
+investigate the relatedness between these two tasks. It reveals that investigating emotion and
+fake news together in a multitask framework yields state-of-the-art (SOTA) performance than
+existing approaches.
+Throughout the thesis, we have briefly analyzed the performance of our proposed architec-
+tures. Wehaveprovidedafaircomparisonagainstvariousbaselinesand state-of-the-artmethods
+forvariousperformancemetrics. Simultaneously, wehavealsocarriedoutadetailedmanualeval-
+uation of the results obtained from our proposed algorithms.",2022
+14,Style Sentiment Knowledge and Persona Controlled Text Generation,https://shodhganga.inflibnet.ac.in/handle/10603/612455,Indian Institute,"Text Generation, Style Control, Sentiment Control, Knowledge Control, Persona Control, Deep Learning, Natural Language Processing. xiii","Abstract
+Deep learning (DL) systems have emerged as the primary method of text generation due
+to their ability to produce fluent and human-like text. This phenomenon has become
+even more prominent with the advent of large pre-trained language models like GPT, T5,
+XLM etc. Although these systems are highly proficient at generating fluent text, they
+require a huge amount of data for training. Another major challenge with such systems
+lies in controlling various attributes of text during generation. Due to the data hungry
+natureofthesemodels, controllingevenasingleattributerequiresmanualcreationofhuge
+amount of data. This data requirement acts as a bottleneck in utilizing any parameters
+for controlled text generation using these models. Controlling various aspects of text
+generation like style, persona, sentiment and knowledge are extremely useful for building
+system with important applications. Grounding text generation to some knowledge base
+canhelpingeneratingmoreknowledgeandcommonsenseawareresponses. Controllingthe
+style of the content can have various applications like converting informal to formal text.
+Text generation systems are also used by chat-bots for response generation. Controlling
+the sentiment and persona of such a chat-bot would help in making the system more
+engaging and human-like.
+Our research aims at controlling the various aspects namely style, sentiment, knowl-
+edge, and persona in a text generations system. We try to mitigate the bottleneck of
+manual data creation for these tasks by proposing various unsupervised, semi-supervised,
+and automatic synthetic data generation steps. We work on existing datasets and modify
+these datasets to suit our tasks. We conduct experiments showing the effectiveness of our
+systems for controlling the aforementioned attributes in text generation.",2023
+15,Artificial Intelligence based Models to Decipher Natural Phenomena,https://shodhganga.inflibnet.ac.in/handle/10603/612439,Sanjit Kumar,"Machine Learning, Deep Learning, Scour depth, Flow velocity, Alluvial chan- nel,ParticleFroudenumber,Floodareasegmentation,Naturalphenomena. ;;=8=<< xiv","Abstract
+Natural phenomena problems involve understanding, predicting, and controlling natural
+events. These phenomena include geological, meteorological, ecological, and biological
+events. Natural phenomena like scour depth, flow velocity in vegetated alluvial chan-
+nels, particle Froude number, and flood can cause significant losses that affect ecosystems,
+infrastructure, and safety. It becomes critical to predict the scour depth near structures
+with greater accuracy for the safe and economical design of bridge piers. Underestimation
+may result in bridge failure, while overestimation raises construction costs unnecessarily.
+Changesintherateatwhichwaterflowsthroughvegetatedalluvialchannelscanaffectthe
+stateofthevegetation,thequalityofthewater,andthelikelihoodofflooding,allofwhich
+have consequences not only for the ecosystems but also for the human communities that
+live there. The particle Froude number, which describes sediment movement, helps pre-
+serve channel architecture and water quality. Predicting and preventing natural disasters
+is crucial to preserve infrastructure, ecosystems, and community resilience. The combina-
+tion of rapid urbanization, population growth, and extreme climate change has resulted in
+a high frequency of flooding incidents, which present significant difficulties for numerous
+countries worldwide. Floods have significant consequences, such as deaths, property de-
+struction, and illness. We utilize two ensemble approaches, Bagging Regressor (BR) and
+AdaBoost Regressor (ABR), as well as one solo machine learning method, Support Vector
+Regression(SVR),forthepredictionoftime-dependentscourdepth. Whencomparedtothe
+standaloneversionandempiricalequations—thatis,BR,ABR,andSVR—bothofthesema-
+chine learning ensemble approaches yield better predictions. In addition, we have created
+anopen-sourceweb-basedapplicationthatusesthesuggestedmachinelearningtechniques
+toforecastthetime-dependentscourdepth.
+We employed the M5Prime and Random Tree (RT) methods as stand-alone techniques
+to forecast flow velocity, and the Additive Regressor (AR) and Bagging (BA) methods as
+part of hybrid machine learning approaches. Six machine learning techniques have been
+investigated and their performance evaluated: M5P, AR-M5P, BA-M5P, RT, BA-RT, and AR-
+RT.ThebestpredictionisgivenbyAR-M5P,whichisfollowedbyBA-M5P,BA-RT,M5P,RT,
+andAR-RTamongthesuggestedapproaches.
+WeusedAdditiveRegression(AR)modelsasahybridmachinelearningmodelandKstar,
+M5P, and Random Forest (RF) models as standalone models for the prediction of particleFroude number. We examined six machine learning techniques in total: RF, AR-RF, M5P,
+AR-M5P, Kstar, and AR-Kstar. Hybrid machine learning models outperform empirical equa-
+tions and standalone models in terms of performance. The top performing models were
+AR-Kstar,AR-RF,Kstar,RF,AR-M5P,andM5P.
+In flood area segmentation, we used the attention gate and recurrent residual convolu-
+tionalneuralnetworkbaseUNetmodelonthreedifferentcollecteddatasets. Incomparison,
+the attention gate and recurrent residual convolutional neural network base UNet outper-
+form separate attention gate UNet, recurrent residual convolutional neural network base
+UNet,andbasicUNetmodels. Differentmachinelearninganddeeplearningmethodshave
+been employed in a variety of studies in the literature to solve problems related to natural
+phenomena. Weconsiderdifferenthybridandstandalonemachineanddeeplearningmod-
+els to solve natural phenomena problems. Our proposed models help developing countries
+in preventing the impact of natural phenomena through accurate forecasting. It helps pre-
+servetime,finances,andhumanlives,whichcanbeallocatedtootheractivitiestodevelop
+thecountries.",2024
+16,Multimodal Affective Computing,https://shodhganga.inflibnet.ac.in/handle/10603/612453,Gopendra Vikram Singh,"NaturalLanguageProcessing,DeepLearning,MultimodalSentimentAnalysis,Multimodal Emotion Recognition, Multimodal Humor Analysis, Multimodal Sarcasm Detection, Multimodal Dia- logueGeneration,MultitaskLearning,MultimodalFusion. xiii","Abstract
+Multimodalaffectanalysisstandsattheintersectionofvariousdisciplines,emergingasaprominentfield
+within Natural Language Processing (NLP), Computer Vision (CV), and human-computer interaction
+(HCI). The core objective of multimodal analysis is to harness diverse and often distinct information
+frommultiplemodalitiestoconstructmoreefficientsystems.
+For instance, consider the challenge of discerning the sentiment in a sarcastic statement like ""It’s
+trulyapleasuretoobserveyouengagedinatask.""whenrelyingsolelyontextualinformation. Thistask
+becomesnon-trivial. However,ifthesystemhasaccesstootherdatasources,suchasvisualcues,itcan
+readilydetectthespeaker’snegativebodylanguageandcategorizethesentimentasnegative. Similarly,
+acousticfeatureslikeintensity,pitch,andpausescanbecrucialforsystemaccuracyincertaincases.
+In this thesis, we provide a comprehensive overview of recent advancements in multimodal anal-
+ysis, with a particular focus on classification tasks. We delve into the complexities and opportunities
+associated with integrating multiple modalities and emphasize the potential advantages of employing
+deep learning techniques in multimodal analysis. We discuss various deep learning methods, including
+Zero-shotlosses,Transformer-basedmodels,GraphConvolutionNetworks(GCN),andAttention-based
+models,withinthecontextofmultimodalanalysis.
+Furthermore,wepresentcurrentresearchtrendsandlingeringchallengesinthefield,pavingthepath
+for future investigations across various multimodal analysis domains, such as mental health, sentiment
+analysis, emotion recognition, sarcasm detection, and humor identification. We also assess the impact
+of different modalities on model performance and explore techniques for multimodal data fusion. Our
+approaches have been rigorously evaluated using publicly available multimodal datasets, demonstrating
+thatmultimodalanalysisconsistentlyoutperformsunimodalanalysisinclassificationtasks.
+We use the Zero-shot Intent Emotion Detection (ZIED) approach to identify emphatic intents and
+emotions concurrently in multimodal conversational datasets to solve our different problems like zero-
+shot intent detection. The integration and experimentation on the EmoInt-MD dataset have bolstered
+the efficacy of the former model, demonstrating significant performance gains across different ratios
+of seen and unseen categories for both emotion and intent categories. Additionally, we address sev-
+eralothertasksinconversationalAI,includingmulti-labelemojipredictionusingtheMu-Emojidataset,
+joint identification of emotional reasoning and emotion with the DEER corpus and COMMA-DEER
+system, detectionofcognitivedistortionandemotioncauseextractionwiththeCoDECdatasetandDe-
+CoDE framework, and humor detection using the Sentiment, Humor, and Emotion aware Multilingual
+Multimodal Multiparty Dataset (SHEMuD), where a Context Transformer and Sentiment and Emotion
+Embedding(SE-Embedding)havebeenproposedtoenhanceperformance.",2023
+17,Style Sentiment Knowledge and Persona Controlled Text Generation,https://shodhganga.inflibnet.ac.in/handle/10603/612454,Indian Institute,"Text Generation, Style Control, Sentiment Control, Knowledge Control, Persona Control, Deep Learning, Natural Language Processing. xiii","Abstract
+Deep learning (DL) systems have emerged as the primary method of text generation due
+to their ability to produce fluent and human-like text. This phenomenon has become
+even more prominent with the advent of large pre-trained language models like GPT, T5,
+XLM etc. Although these systems are highly proficient at generating fluent text, they
+require a huge amount of data for training. Another major challenge with such systems
+lies in controlling various attributes of text during generation. Due to the data hungry
+natureofthesemodels, controllingevenasingleattributerequiresmanualcreationofhuge
+amount of data. This data requirement acts as a bottleneck in utilizing any parameters
+for controlled text generation using these models. Controlling various aspects of text
+generation like style, persona, sentiment and knowledge are extremely useful for building
+system with important applications. Grounding text generation to some knowledge base
+canhelpingeneratingmoreknowledgeandcommonsenseawareresponses. Controllingthe
+style of the content can have various applications like converting informal to formal text.
+Text generation systems are also used by chat-bots for response generation. Controlling
+the sentiment and persona of such a chat-bot would help in making the system more
+engaging and human-like.
+Our research aims at controlling the various aspects namely style, sentiment, knowl-
+edge, and persona in a text generations system. We try to mitigate the bottleneck of
+manual data creation for these tasks by proposing various unsupervised, semi-supervised,
+and automatic synthetic data generation steps. We work on existing datasets and modify
+these datasets to suit our tasks. We conduct experiments showing the effectiveness of our
+systems for controlling the aforementioned attributes in text generation.",2023
+18,Neural Machine Translation in Low Resource and Noisy Settings,https://shodhganga.inflibnet.ac.in/handle/10603/612452,Kamal Kumar Gupta,"Neural machine translation, Low-resource neural machine translation, Data Aug- mentation, Syntactic phrase augmentation, Interactive Machine Translation xii","Abstract
+Neural machine translation (NMT) has emerged as a preferred alternative to the previous main-
+stream statistical machine translation (SMT) approaches largely due to its ability to produce
+better translations. NMT training is often characterized as data hungry since a lot of training
+data, in the order of a few million sentence pairs, is required for training. This is indeed a bot-
+tleneck for the under-resourced language-pairs and domains that genuinely lack the availability
+of such resources. Machine translation (MT) researchers have tried to counter the data spar-
+sity problem by enriching the training data using different strategies. In our work, we propose
+different data augmentation strategies to improve the translation performance in low resource
+scenarios. We also explore the challenges from the translation of user generated content. Trans-
+latingusergeneratedcontentposessignificanthurdleslikeunavailabilityofdomainspecificcorpus
+(parallel/monolingual), noise in terms of spelling mistake, wrong syntax, code mixing etc. We
+solve these problems by proposing synthetic data augmentation and noise handling techniques.
+In case of low-resource NMT, when the model generates erroneous outputs, to improve the
+model’sperformance,correctingthegeneratedoutputsofthemodelandagainusingthecorrected
+output to update the model are also very helpful. In interactive machine translation (MT),
+humantranslatorscorrecterrorsinautomatictranslationsincollaborationwiththeMTsystems,
+and this is an effective way to improve productivity gain in translation. Phrase-based statistical
+MT(PB-SMT)hasbeenthemainstreamapproachtoMTforthepast30years,bothinacademia
+andindustry. NeuralMT(NMT),anend-to-endlearningapproachtoMT,representsthecurrent
+state-of-the-art in MT research. The recent studies on interactive MT (IMT) have indicated
+that NMT can significantly outperform PB-SMT. In our work, we investigate the possibility of
+integrating lexical syntactic descriptions in the form of supertags and parse tree information
+into the state-of-the-art NMT model, Transformer. Interactive MT (IMT) is viewed as an
+effective means to increase productivity in the translation industry. In principle, IMT aims to
+reduce human effort in automatic translation workflows by employing an iterative collaborative
+strategy with its two most important components, the human agent and the MT engine. So use
+of interactive NMT (INMT) for output sample correction can significantly reduce the overall
+translation time and active learning strategy can use human corrected samples for adapting
+the underlying NMT model so that in future, the model does not repeat previous errors and
+xiimproves the translation quality. Active learning helps the trained models to stay updated using
+the newly corrected parallel samples in an incremental fashion.
+Throughoutthethesis,weexplorethetechniquestoimprovetheNMTmodel’soutputforlow-
+resourcelanguagepairsandnoisydomains. Wediscussdataaugmentationapproaches, syntactic
+informationinTransformer, interactiveNMT,activelearningandhandlingusergeneratedtexts.",2024
+19,Exploring Artificial Intelligence Techniques for Peer Review and Establishing a Research Lineage,https://shodhganga.inflibnet.ac.in/handle/10603/613100,Prabhat Kumar Bharti,"Scholarly peer review, reviewer’s comments, content analysis, natural language processing (NLP), machine learning, dataset applications, review quality, and digital libraries. xiv","Abstract
+In the realm of academia, peer review has a longstanding tradition of enhancing the rigor of
+scientific research. It involves researchers receiving valuable feedback from their peers, allowing
+them to refine their work and ensure that only the highest-quality research contributes to our
+collective knowledge. However, the peer review system faces significant challenges today. The
+growing number of paper submissions and publication outlets has led to a scarcity of reviewers,
+making it challenging to identify domain experts and maintain review standards. To tackle these
+issues to some extent, we propose the integration of artificial intelligence (AI) techniques into
+the peer review process. This integration aims to enhance the efficiency and effectiveness of peer
+review while upholding its quality. This thesis focuses on enhancing scholarly communication by
+utilizing Artificial Intelligence (AI) techniques to improve the peer review process. The central
+goals are to elevate the quality of review comments and enhance the transparency and efficiency
+of peer review. In this thesis, we utilize machine learning (ML) and natural language processing
+(NLP) techniques to explore and address significant issues related to scholarly peer review.
+In our first contribution, we focus on leveraging the interactions within paper review texts to
+predict review decisions. By employing deep neural networks guided by cross-attention mecha-
+nisms, our proposed models demonstrate promising performance in predicting review decisions.
+Importantly, our aim here is not to replace human reviewers but to establish a human-AI collab-
+oration where AI systems analyze review texts and paper content to predict the fate of a paper.
+Transitioningtooursecondcontribution, wefocusonautomaticallygeneratingrecommendations
+andpredictingdecisions. Thisisaccomplishedbyanalyzingthefulltextofpaperandcorrespond-
+ing review texts. We employ deep neural network models equipped with attention mechanisms,
+surpassing existing benchmarks. This provides editors and program chairs with an additional
+layer of confidence in the decision-making process. Additionally, we tackle the task of automati-
+cally generating meta-reviews, which are concise summaries of peer reviews and interpretations
+ofeditors’decisions. Byutilizingstate-of-the-artsummarizationtechniques, weassesstheperfor-
+mance of various approaches in crafting informative and concise meta-reviews. We also evaluate
+how well these methods preserve the essential aspects and sentiments expressed in the original
+peer reviews. In our next contributing chapter, we tackle the issue of constructiveness in peer
+review comments by developing a dataset called “BetterPR”. This dataset enables the automatic
+estimation of the constructiveness of peer review comments, distinguishing between constructive
+and non-constructive feedback. Through manual annotation and benchmarking against standard
+baselines, we analyze the performance of “BetterPR”. This dataset serves as a valuable resource
+for improving peer review quality.
+Furthermore, we introduce “PolitePEER” a dataset created to gauge politeness intensity in
+peer reviews. Recognizing the power imbalance in peer review, we aim to address rudeness and
+lack of professionalism by analyzing the tone of review comments and developing a politeness
+indicator. The dataset serves as a foundation for promoting politeness and professionalism in the
+peer review process. Lastly, we present a benchmark dataset of peer-reviewed texts annotated
+xiiiat multiple levels. By analyzing this dataset, we aim to gain a better understanding of the
+reviewers’ perspectives on certain sections and aspects of the paper, and then we will be able to
+use those insights to conduct further research on peer review quality as well as other downstream
+challenges. A dataset such as this facilitates the computational analysis of peer reviews and
+the development of automated systems for addressing issues relating to peer review quality and
+transparency. These efforts contribute to the improvement of scientific publication quality by
+increasing trust and transparency in scientific research validation. In our research, we rigorously
+follow the scientific method and conduct studies that involve researching the process of research
+itself. Our findings are documented in published papers, conveniently listed in the publications
+section, providing a comprehensive overview of the core experiments and outcomes for each
+chapter. As a result of our research, we have found interesting findings related to various issues,
+especially those that may facilitate the integration of AI solutions into scholarly peer review
+processes.
+Additionally, we have identified and documented the challenges and concerns that need to
+be addressed prior to implementing an AI-assisted peer review system. It is important to note
+that there are numerous other AI applications in peer review that extend beyond the scope of
+our current doctoral research. We encourage the research community to build upon our findings
+and address the limitations inherent in the problems we have investigated.",2024
+20,Affective Analysis of Distress Offensive Content and Personality,https://shodhganga.inflibnet.ac.in/handle/10603/539766,Soumitra Gosh ,"Affective Analysis, Offensive Content Detection, Social Media Mining, Natural Language Processing","Sentiment and emotion analysis is a well-researched problem in Natural Language Processing
+(NLP) with several applications. Despite many sentiment and emotion recognition approaches, researchers confront considerable hurdles, such as dealing with forensic document context, statements conveying several emotions, the ever-increasing proliferation of distress content on the Web, and so on. Furthermore, because there are no common guidelines for communicating feelings across numerous platforms, researchers have a significant problem in developing a strategy that works efficiently in all domains. In this thesis, we put our efforts towards addressing the following tasks pertaining to the field of Sentiment and Emotion analysis: (A). Emotion Recognition from Social Media Data; (B). Emotion-assisted Networks for Distress Detection from Social Media Data; (C). Emotion Recognition from Forensic Documents (especially Suicide Notes);
+(D). Behavioural analysis (Interpersonal Risk factors of Suicide, Personality Subtyping) through computational modelling.
+The first problem we investigate as part of this thesis is two different problems on emotion recognition from social media data. The first problem deals with emotion recognition in conversations, where we propose an approach to detect emotion in dialogues given the utterance history and grounded knowledge. Experiments show that context and external knowledge are essential for conversational emotion recognition. In the second problem, we work towards tackling the scarce availability of relevant code-mixed data and enable future researchers to contribute to this domain. We created an emotion annotated Hindi-English (Hinglish) code-mixed dataset by performing emotion annotation on the benchmark SentiMix dataset. We propose an end-to-end transformer-based multi-task framework for sentiment detection and emotion recognition that outperforms the state-of-the-art single-task and multi-task baselines by considerable margins.
+In recent times, understanding people's opinion and sentiment from their online social media interactions have been the hour's need to meet various purposes, such as mental health analysis, monitoring online content, real-time trending, etc. It motivates us to solve the next objective of the thesis, in which we propose emotion-aided systems for depression and offensive content detection from social media data. We hypothesize that harvesting users' metadata information may allow for a low-profile assessment that can complement traditional services in anticipating depression and other downstream tasks. We explore this hypothesis by leveraging Twitters's rich meta-data information to detect depression and emotion among users with significant confidence via a multi-modal multi-task system. While democratizing the Internet, social media platforms can nonetheless generate conflict by allowing erroneous information to spread at an unprecedented rate. The considerable overlap among hate speech, offensive lan-guage, aggressive posts, and other correlated tasks motivates us to investigate the interrelation among these tasks through a single emotion-aware end-to-end deep neural multi-task framework for recognizing hate-offensive material and aggressive posts when learned concurrently.
+The third problem we investigate as a part of this dissertation is developing several end-to-end multitask frameworks for emotion recognition from suicide notes. According",2023
+21,Deep Learning Applications For Video Surveillance And Re Identification Systems,https://shodhganga.inflibnet.ac.in/handle/10603/612814,Fazail Amin,"Convolution neural networks, object detection, background modeling, video surveillance, re-identification, feature extraction, semantic hashing, image search and retrieval","Abstract
+Video surveillance is a crucial part of public safety and security systems. In general, for
+good video surveillance, robust systems are required for object detection, event detection,
+scene understanding, person re-identification, object tracking, and image search and re-
+trieval. Machine learning-based solutions for various applications have recently become
+the state-of-the-art approach. This thesis provides a solution for one of the most cru-
+cial applications, abandoned object detection in video surveillance systems. It explores
+various deep learning model improvement techniques that can enhance the performance
+of the overall framework. It provides substantial improvements to the primary building
+blocks of the surveillance system. Another major concern tackled is devising techniques
+for robust representation learning, and developing insight into the utilization of available
+data for model training.
+One of the parts of this work is the development of a complete framework for abandoned
+object detection. It is also accompanied by novel solutions for re-identification and se-
+mantic hashing systems. The developed abandoned object detection framework provides
+a robust mechanism for owner identification and object association via the proposed novel
+object association algorithm. This work also proposes re-identification approaches that
+cater to the needs of video surveillance systems. In video surveillance setups, there are
+multiple non-overlapping cameras capturing the same object, leading to wide deviations
+in the projected images of the same object. The proposed approach achieves an effective
+re-identification model, solving this issue.
+To achieve real-time performance in video surveillance, it is necessary to reduce the
+running time of the constituent modules. This work also leads to the development of
+improved large-scale image search and retrieval models that can enhance the performance
+of semantic search on images in general and video surveillance in particular. Deep se-
+mantic hashing models that can provide reasonably scalable semantic search and retrieval
+performance have also been developed in this work. A common challenge for all vision
+applications is partial occlusion, which should be taken care of to make the system robust.
+Towards solving this, the work done leads to the development of semantic hashing models
+under suppressed information, particularly for face images capturing the facial symmetry
+information. All the developed models have been tested on publicly available datasets,
+and the quantitative and qualitative results have been provided.",2024
+22,Machine Learning Based Predictive Modeling for Environmental Assessment and Management,https://shodhganga.inflibnet.ac.in/handle/10603/612824,Deepti Shakya,"Airpollutants, boostingmodels, deeplearningtechniques, particleFroude number, predictive modeling, total sediment load, sensitivity analysis, and machine learn- ing algorithms. xiv","Abstract
+Natural phenomena encompass a wide range of processes and events occurring in the
+natural world. Predicting natural phenomena like total sediment load, hydraulic char-
+acteristics (Froude number), and air pollutants is crucial because it enables informed
+decision-making in environmental engineering and urban planning. They collectively in-
+fluence environmental health, urban infrastructure resilience, and public well-being, pro-
+viding a holistic approach to address complex urban challenges. Total sediment load in
+rivers, a critical component of aquatic ecosystems, is influenced by various factors, in-
+cluding land use patterns and rainfall. Changes in total sediment load can affect river
+morphology and water quality. This, in turn, can influence the efficiency of sewer systems
+as sedimentation impacts their functionality and maintenance requirements. Assessing
+the particle Froude number (Frn) in sewer systems is crucial for understanding the flow
+dynamics within urban drainage networks. Effective sewer systems are vital for mitigating
+flooding and preventing water pollution. Furthermore, air pollutants, such as particulate
+matter (PM2.5 & PM10), nitrogen oxide (NOx), ozone (O3), aand sulphur dioxide (SO2)
+are also factors that affect human health Air quality can be influenced by releasing pol-
+lutants from sediment and wastewater, leading to health and environmental concerns.
+Therefore, these interconnected domains must be studied collectively to develop holistic
+urban environmental management strategies. In essence, changes in one aspect can ripple
+through the others, emphasizing the need for a comprehensive approach to address the
+environmental challenges faced by modern cities.
+Machine learning and deep learning models have become state-of-the-art methods for
+predicting natural phenomena due to their ability to extract intricate patterns from vast
+datasets. They enhance prediction accuracy in fields like predicting air pollutants, Froude
+numberestimating,andtotalsedimentloadbyanalyzingcomplexenvironmentalvariables.
+These models enable early warnings, informed decision-making, and proactive measures
+to mitigate the impact of natural events, safeguarding lives and the environment. We
+have developed a predictive model for analyzing air pollutants and various novel solutions
+for total sediment load in rivers, particle Froude number in sewer systems. We have
+developed a predictive model for three aspects of natural phenomena, i.e., total sediment
+load, hydraulic characteristics (Froude number), and air pollutant dynamics, which are
+crucial for prediction because they collectively contribute to the understanding of complex
+environmental processes and urban infrastructure management.
+Total sediment load exerts control over the river channel morphology. Due to the non-
+linear and multi-dimensional behavior of the variables impacting total sediment load,
+the prediction is often complex and challenging. To handle this non-linearity and multi-
+dimensional behavior of total sediment load variables, we have proposed a deep neural
+network (DNN) model, which provides the most accurate prediction of the sediment load.We have compared our proposed DNN model with extreme machine learning (ELM), sup-
+port vector regression (SVR), linear regression (LR), and existing empirical equations.
+Similarly, the hydraulic capacity of a channel is impacted due to sediment deposition in
+urban drainage and sewer systems. As a result, the self-cleansing mechanism is a widely
+used phenomenon in urban drainage and sewer systems. In this context, predicting par-
+ticle Frn plays an important role, and we have used various machine learning techniques,
+i.e., boosting techniques, standalone and ensemble techniques for predicting particle Frn
+in the sewer system. For prediction of particle Frn we have compared and contrasted
+empirical, standalone, boosting and ensemble machine learning techniques and show how
+the ensemble techniques provide better prediction capabilities. Air pollutants are consid-
+ered a major issue for human health and environmental protection. Particulate matter
+(PM2.5) is considered the most hazardous pollutant since it is very easy to inhale and can
+damage the respiratory systems of the human body. We propose Gated Recurrent Unit
+Based Encoder-Decoder (GRU-ED) method to predict 1-hourly, 8-hourly, and 24-hourly
+PM2.5 concentrations in New Delhi, India. The predictive models for air pollutants allow
+individuals and healthcare providers to take precautions during periods of high pollution,
+reducing the risk of health issues.
+Weconductedcomprehensiveevaluationsofthedevelopedpredictivemodelsusingdatasets.
+Through rigorous comparisons with previous studies, we presented both qualitative and
+quantitative results. This approach allowed us to assess the performance and effectiveness
+of the developed models in predicting natural phenomena, providing valuable insights for
+further research and practical applications.",2024
+23,Enhancing domain specific knowledge preservation in low resources neural machine translation,https://shodhganga.inflibnet.ac.in/handle/10603/690464,Divya Kumari,"Neural Machine Translation, Natural Language Processing, Low Resource Lan- guage, Domain Knowledge Preservation, Affect Translation, Gender Translation, Reinforce- ment Learning, Curriculum Learning, Multi-task Learning, Model Explainability. xiii","Abstract
+
+ 
+
+Neural machine translation (NMT) models have recently made significant strides in maximizing
+the overall translation quality of text, which typically includes factors like fluency (how natu-
+ral the translated text sounds) and adequacy (how well it conveys the meaning). Despite these
+advancements, effectively transferring many key higher-level semantic nuances— such as senti-
+ments, emotions, gender, and others —from the source text to its translation remains a challenge
+for NMT models, especially in low-resource languages. This limitation can render the obtained
+translations inadequate for direct use in specific scenarios. Therefore, in this thesis, we focus on
+effectively preserving such nuanced attributes of the source text in its target counterpart during
+automatic translation.
+
+Attaining such nuanced level of focus in translation within a data-constrained environment
+is not feasible with conventional likelihood (LL)-based training alone. Thus, in this work, we
+explore several non-conventional training paradigms, such as reinforcement learning (RL), cur-
+riculum learning (CL), and multi-task learning (MTL) to prioritize affective tone preservation
+in low-resource review translation task.
+
+Additionally, we explore probing the representational knowledge of pre-trained translation
+models as another research direction. Probing the linguistic knowledge of pre-trained models
+allows us to selectively identify and extract salient neurons responsible for encoding specific
+linguistic phenomena and to intervene in them for attribute-controlled translation.
+
+Overall, our work contributes to the ongoing research on domain-specific translation gener-
+ation and provide valuable insights into how multiple non-conventional training paradigms can
+be utilized to further enhance the quality of translation models, in low-resource settings. The
+proposed approaches have the potential to significantly improve the performance of NMT sys-
+tems in various domain-specific tasks, making them more effective and versatile in a wide range
+of downstream applications.",2025
+24,Enhancing medical consultations with knowledge grounded question answering and dialogue generation,https://shodhganga.inflibnet.ac.in/handle/10603/690473,Indian Institute,"Medical Question Answering, Knowledge Graph, Pre-trained language models, Knowl- edge Infusion, Answer generation, Natural Language Generation, Medical Dialogue Gen- eration, BERT, BART, BioBERT. xiv","Abstract
+
+ 
+
+Poor health remains a fundamental cause of human suffering and deprivation, highlight-
+ing the critical importance of improving healthcare. A key objective of the United Na-
+tions (UN) Sustainable Development Goals is to ensure universal access to high-quality
+healthcare, encompassing economic coverage, availability of essential services, and ac-
+cess to vital vaccinations and medications. In this context, there is growing interest in
+Question-Answering (QA) and Dialogue Generation within the medical domain, with po-
+tential benefits including enhanced access to healthcare services, improved patient-doctor
+interactions, and cost reduction through e-medicine. Recent advancements in language
+modeling and natural language generation have facilitated the development of data-driven
+conversation models capable of producing natural language responses directly. However,
+building effective end-to-end QA and dialogue models has been a longstanding goal of
+natural language research.
+
+Medical QA systems must accurately extract concise answers from complex text, ne-
+cessitating an understanding of both explicit constraints within the question's context
+and implicit medical knowledge. Conversely, end-to-end dialogue systems risk devolving
+into uninteresting conversations, underscoring the need for additional information such
+as medical Knowledge Graphs (KG) derived from sources like the Unified Medical Lan-
+guage System (UMLS) database. This thesis focuses on Enhancing Medical Consultations
+through knowledge-grounded Question Answering and Dialogue Generation.
+
+Integrating Knowledge Graphs (KG) with Language Models (LMs) is a common strat-
+egy, yet effectively combining and reasoning over KG representations and language con-
+text remains challenging. The thesis addresses this by proposing the MedQAKG s
+tem, an end-to-end medical knowledge-aware neural QA model. This model incorporates
+KG to provide precise medical information, ensuring extracted answers are reliable and
+aligned with established medical facts. Challenges such as Vector Space Inconsistency
+(VSD and Excessive Knowledge Information (EKI) are tackled through innovations like
+the KIMedQA system, which employs attention mechanisms to identify relevant context
+words with respect to KG.
+
+Furthermore, traditional knowledge graphs often fail to capture intricate relationships
+between diverse medical symptoms and their respective treatments, hindering the model’s
+capacity to furnish precise and contextually pertinent responses. To overcome this, MedEx
+employs First-Order Logic (FOL)-based reasoning to encode complex relationships be-
+tween diseases and their solutions, enhancing contextual relevance.
+
+Traditional QA systems typically select answers based on specific criteria like start and
+end indexes or scoring functions applied to answer sentences. However, these methods are
+limited to extracting information directly from the source text, making it challenging to
+determine which details to include or omit within the answer span. The emergence of
+large generative models has revolutionized this approach, cnabling modern QA systems
+to encode both context and questions for generating responses with a deeper understand-
+ing of the content, termed as abstractive question-answering systems. To address this
+advancement, we introduce the KI-MAG (Knowledge-Infused Medical Abstractive Gen-
+erator) model, tailored for the medical domain. By integrating relevant medical entities
+into the response generation process, KI- MAG enhances answer accuracy and mitigates
+data sparsity concerns.
+
+Despite advancements, current approaches often struggle with complex logical struc-
+tures in contextual information. To address this, we introduce MedLogic-AQA, leveraging
+first-order logic-based rules from context and questions to produce well-grounded answers.
+
+The next part of the thesis explores the use of structured knowledge from knowledge
+graphs to enhance dialogue generation models. We release the CDialog dataset, a high-
+quality multi-turn Medical Dialog dataset, and propose a neural medical dialog system
+based on it.
+
+Overall, this thesis contributes to advancing medical consultations through innovative
+approaches in question answering and dialogue generation, leveraging knowledge graphs
+and advanced reasoning techniques to improve healthcare outcomes.",2025
+25,Unveiling multimodal cues and biases in internet memes,https://shodhganga.inflibnet.ac.in/handle/10603/690420,Gitanjali Kumari,"Offensive Meme detection, Emotion Detection, Sentiment Prediction, Humor Recognition, Persuasiveness, Biases Identification, Biases Mitigation, Multitasking, Multimodal- ity, Multimodal Feature Fusion, Contrastive Learning, Natural Language Processing, Deep Learn- ing, Images, Text, Image xiv","Abstract
+
+ 
+
+ 
+
+‘The emergence of social media platforms such as Twitter, Facebook, and Instagram initiated a
+unique era of online communication characterized by anonymity and unrestricted self-expression.
+While this has enabled greater freedom of expression, it has also given rise to the widespread
+dissemination of offensive, trolling, and predatory behavior. Memes: Multimodal media forms
+have gained significant popularity on these platforms. Although most memes are intended to
+be humorous, some employ dark humor to propagate offensive content. These memes serve
+as tools for promoting and reinforcing stercotypes, ideologies, personalities, and philosophies.
+Unfortunately, due to their subtle nature, determining the underlying intentions of memes can be
+challenging. This has resulted in the increasingly common use of memes for harassment, bullying,
+and targeted attacks on individuals within the realm of social media. It is, therefore, crucial
+to conduct a comprehensive analysis of memes to combat these issues effectively. Considering
+the prevalence of code-mixed and low-resource memes on social media platforms, a thorough
+examination of these memes is essential. This thesis addresses these challenges by developing
+deep learning-based models to detect offensi reastic, and persuasive memes, mostly focusing
+on low-resource languages like Hindi and Hindi-English code-mixed (Hinglish)
+
+In the first chapter, we introduce the task of Offensive Meme Detection and introduce
+EmoffMeme, a large-scale dataset for Hindi memes, and demonstrate the effectiveness of a multi-
+tasking deep neural network. This model incorporates CLIP and Multimodal Factorized Bilinear
+(MFB) pooling to identify offensive content by analyzing emotions in memes. Additionally, we
+create a dataset of Hinglish memes to train models for detecting offensive memes in code-mixed
+Hindi-English, emphasizing the importance of considering linguistic diversity in meme analysis.
+
+In the second chapter, we focus on Sarcasm Detection in Hindi memes with the help of
+emotions, sentiment, and humor. We propose a multitask model for sarcasm detection, leveraging
+emotion and sentiment analysis to improve performance. This model is evaluated on a dataset
+of Hindi memes, demonstrating its effectiveness in distinguishing between sarcastic and non-
+sarcastic content. Additionally, we introduce Mu2STS, a model focused on differentiating between
+sarcasm and humor in memes, showing superior performance compared to existing methods.
+
+Moving to the third chapter, we explore the role of continuous dimensions of emotions, i.e.,
+Valence and Arousal, in Identifying Humorous and Offensive Memes, proposing two
+multi-task, multi-modal frameworks that outperform unimodal approaches. The first framework
+is evaluated on the OffVA dataset, a new Hindi corpus annotated with offensive, valence, and
+arousal labels, serving as a benchmark for future research in this area. In another framework,
+we design a method to identify the intensity of humor presented in Hindi memes with the help
+of valence and arousal.
+
+In the fourth chapter, we address the task of Persuasive Meme Identification, releasing
+the Persuasive_meme dataset for Hindi-English code-mixed memes. Our study includes tasks
+such as persuasive meme detection, effectiveness as: ment, and identification of persuasion techniques, underscoring the importance of multimodal approaches in understanding persuasive
+content in memes.
+
+Lastly, after developing robust models for different tasks in meme analysis for English and
+Hindi memes. We then attempt to Identify and Mitigate Unintended Biases presented in
+such models. We develop two methods: first, to understand and mitigate political biases in clas-
+sifiers trained on EmoffMeme, and second, to reduce online sexism perpetuated through memes.
+Our comprehensive approach aims to measure and mitigate unintentional bias in misogynous
+meme detection models, aiming to develop effective strategies to counter their harmful impact.
+
+Throughout the thesis, we have briefly analyzed the performance of our proposed architec-
+tures. We have provided a fair comparison against various baselines and state-of-the-art methods
+for various performance metrics. Simultaneously, we have also carried out detailed qualitative
+and quantitative evaluations of the results obtained from our proposed algorithms.",2025
+26,Investigating multimodal analysis and fusion techniques,https://shodhganga.inflibnet.ac.in/handle/10603/689184,Dushyant Singh Chauhan,"Natural Language Processing, Deep Learning, Multimodal Sentiment Analysis, Multimodal Emotion Recognition, Multimodal Humor Analysis, Multimodal Sarcasm Detection, Multimodal Dia- logue Generation, Multitask Learning, Multimodal Fusion","Abstract
+
+ 
+
+Multimodal affect analysis is an interdisciplinary study and has been an emerging and prominent field
+in Natural Language Processing (NLP), Computer Vision (CV), and human-computer interaction (HCI).
+The motivation of multimodal is to leverage the varieties of (often distinct) information from multiple
+sources for building an efficient system. For example, it is a non-trivial task to detect the sentiment of a
+sarcastic sentence ""My neighbors are home!! it is good to wake up at 3 am in the morning."" as negative
+considering only the textual information. However, suppose the system has access to some other sources
+of information, e.g., visual. In that case, it can easily detect the unpleasant gestures of the speaker and
+would classify it with negative sentiment polarity. Similarly, for some instances, acoustic features such
+as intensity, pitch, pause etc. have important roles to play in the correctness of the system. Thus, in this
+thesis, we present a comprehensive overview of the recent advances in multimodal analysis, focusing
+on both classification and dialogue generation tasks. We explore the challenges and opportunities in
+combining multiple modalities and highlight the potential benefits of utilizing deep learning techniques
+for multimodal analysis. We discuss various deep learning techniques, including Convolutional Neural
+Networks (CNNs), Transformer-based models, Recurrent Neural Networks (RNNs), and Attention-based
+models in the context of multimodal analysis. Finally, we present current research trends and open
+challenges in the field, paving the way for future research in various multimodal analysis tasks, such
+as sentiment, emotion, sarcasm, and humor. We also examine the impact of different modalities on
+the performance of the models and discuss techniques for multimodal fusion. We have evaluated our
+approaches on different publicly available multimodal datasets and compared our multimodal analysis
+approaches against several baselines and state-of-the-art (SOTA) systems. The results clearly show that
+multimodal analysis significantly outperforms unimodal analysis for both classification and dialogue
+generation tasks.",2024
+27,Constructing and leveraging knowledge graphs for nlp tasks in scientific domain,https://shodhganga.inflibnet.ac.in/handle/10603/689087,Komal Gupta,"Knowledge Graph, Information Extraction, Contribution Identification, Multi- task learning, Adapter, Scholarly article, Machine learning, Natural Language Processing, Data Preparation, Novelty Detection, Question Answering, Neuro-symbolic. xv","Abstract
+
+ 
+
+The  world, knowledge graphs emerge as powerful tools reshaping how we navigate
+and comprehend complex information. By constructing and leveraging these interconnected net-
+works, a new frontier unfolds for advancing Natural Language Processing (NLP) tasks. However,
+the surge in scientific publications over the past few years has presented a significant challenge
+for researchers. With a vast amount of information dispersed across diverse formats and sources,
+scientists face an arduous task navigating this sea of data to extract valuable insights efficiently.
+Organizing data and automating the extraction of vital information necessitate the development
+of a robust system. Within this context, the construction of a scientific knowledge graph (SKG)
+emerges as a pivotal solution. SKG specialized type of knowledge graph that captures the unique
+structure and complexity of scientific information. Specifically, a scientific knowledge graph is
+
+designed to represent entities found in research, such as concepts, methods, results, and
+their interrelationships. By serving as a structured repository housing scientific knowledge, the
+SKG plays a vital role in organizing and extracting essential insights from the extensive pool of
+available data. In this research, our focus lies in constructing a knowledge graph from research
+publications and leveraging it to address various NLP tasks, including novelty detection, ques-
+tion answering, and extracting contributions from these publications. We use Machine Learning
+(ML) and NLP techniques to solve these tasks.
+
+The first contribution in the thesis is the identification of the contribution sentence from
+the research article. Our work centers on an NLP-driven method designed to automatically
+detect contribution sentences within research articles. We develop a multitasking deep neural
+architecture capable of processing a research statement and determining whether it shows a re-
+search contribution named ContriSci. To aid this main task, we establish two auxiliary tasks
+within ContriSci. The first, Section Identification, predicts the section title of the research state-
+ment, while the second, Citance Classification, distinguishes between citance and non-citance
+sentences. These sentences are critical for understanding the contributions of a research paper
+quickly. To enhance the extraction process, we utilize a structured representation known as
+triplets composed of subject, predicate, and object, which allows us to break down the con-
+tributions into easily analyzable components. By detecting these triplets, we can effectively
+
+assess the richness of the contributions and relate them to the overarching goals of the research.
+
+As part of this thesis, we investigate moving forward in the endeavor to build the knowledge
+graph. We utilize the BERT-CRF model to extract phrases from contribution sentences. The
+NCG phrase extraction dataset alone lacks sufficient data to train our deep learning model effec-
+tively. To address this, we integrate two additional datasets—SciERC and SciClaim. The NCG
+dataset, encompassing annotations for various IUs (Information Units), serves as the foundation
+for sentence classification into these [Us via a BERT-based multiclass classifier. Reorganizing
+
+the triplet training dataset into five distinct categories, each characterized by similar syntac-tic or semantic properties, enhances the efficiency and accuracy of extracting relevant triplets.
+We exhaustively generate all feasible triplet combinations and employ a combination of BERT-
+based classifiers and rule-based methods for their classification. Furthermore, we developed a
+sequential end-to-end deep learning model for triplet extraction from contribution sentences. our
+proposed pipelined-based system demonstrates state-of-the-art results, enabling the automatic
+construction of a Knowledge Graph (KG) from the extracted information. This system efficiently
+
+identifies triplets critical to building the KG, streamlining the process with high accuracy.
+
+Over time, various datasets and methods have emerged to automate the detection of nov-
+elty. However, the focus of existing textual novelty detection studies primarily centers on broad
+domains like newswire, leaving a significant gap in the availability of a comprehensive dataset
+tailored specifically for scientific novelty detection. By leveraging the constructed SKG, our
+
+next research introduces a novel corpus, SciND, designed to identify
+
+ 
+
+scientific novelty within re-
+search articles through knowledge graphs. Our dataset comprises three distinct types of triples:
+those essential for constructing the knowledge graph, novel triplets indicative of novelty, and
+non-novel triplets. Leveraging these triples, we construct a domain-specific scientific knowledge
+graph spanning seven NLP domains, extracting novel triplets from research articles published
+in 2021. For non-novel articles, we utilize blog post summaries corresponding to the research
+articles. Employing a feature-based novelty detection approach as a baseline, we showcase the ef-
+ficacy of our proposed dataset in facilitating novelty detection within the scientific domain. The
+next section of the thesis concentrates on leveraging the knowledge from the knowledge graph
+to improve the performance of an NLP application, firstly enhancing the question-answering
+model to the quick review research article. To address this challenge, we developed a Question
+Answering (QA) system for research articles, which holds great potential to assist researchers in
+reviewing the articles effectively. We use a novel neural network-based symbolic approach for
+QA on scientific articles, namely Augmented SciBiDAF. By incorporating logical boolean func-
+tions into the deep neural network and leveraging the BERT embeddings, we achieve substantial
+performance improvements without the need for additional parameters. Furthermore, to reduce
+the reliance on domain-specific training data, we leverage external knowledge from Concept Net.
+
+To address the final problem in our thesis, we address the problem of identiing contributions
+
+in research articles using knowledge infusion techniques. We construct a Scientific Knowledge
+Graph (SKG) consisting of 3600 NLP papers to acquire factual knowledge. Our method involves
+integrating factual knowledge sourced from the SKG into a pre-trained model. We divide the
+KG into distinct, non-overlapping subgroups and incorporate this knowledge into the pre-trained
+ability to model using adapters. In addition, we annotate a new test set to evaluate the model’
+
+identify sentences that make significant contributions to the papers.",2025
+28,Advancing sentiment analysis from diverse domains to multilinguality and robustness,https://shodhganga.inflibnet.ac.in/handle/10603/689086,Indian Institute,"Natural Language Processing, Deep Learning, Sentiment Analysis, Aspect Based Sentiment Analysis, Intensity, Adversarial Attack, Code-mixing, Multilingual, Robustness, Model Explainability, Language Models. xiv","Abstract
+
+ 
+
+Sentiment analysis is a well-established area in Natural Language Processing (NLP) and finds its
+applications in recommendation systems, politics, curating online trends, etc. The overwhelm-
+ing popularity of social media has attracted users from diverse backgrounds, cultures, etc., to
+express their opinions on many social issues. Many individuals/groups also misuse the power of
+social media to influence others negatively. Bilingual users with proficiency in both native and
+English languages often mix them while expressing their opinions. The same phenomenon of
+language mixing is observed on various online review sites. India being a multilingual country,
+this phenomenon of mixing languages is very common and with the increase of Indian users on
+online platforms, such mixed language content has increased drastically.
+
+However, research on the above-mentioned socially relevant domains and low-resource lan-
+guages is very scarce. Little attention has been paid to sentiment analysis in these domains or
+languages at coarse or fine-grained levels. Due to resource scarcity, researchers leverage transla-
+tion systems to utilize the resources of the high-resource English language to perform sentiment
+analysis in low-resource languages. However, these translation systems might affect the perfor-
+mance of the system due to noise induced by them. Further, the research at the more fine-grained
+level in code-mixed languages is very scarce. No attempt has been made towards addressing as-
+pect based sentiment analysis (ABSA) in code-mixed languages. In addition, ABSA systems
+identify the polarity of a given aspect and ignore the strength/intensity of sentiment expressed
+towards it. Measuring aspect sentiment intensity is of foremost importance in designing rec-
+ommendation systems. Moreover, the nature of deep learning models introduces new security
+risks, particularly in the form of adversarial attacks. Adversarial attacks pose a substantial threat,
+exploiting vulnerabilities and causing misclassification. Thus, there is a need to investigate the
+adversarial attacks in sentiment models and fortify the models against such challenges to increase
+the reliability and trustworthiness in real-world applications.
+
+We address the challenges of sentiment analysis in low-resource socially relevant domains
+for English and Indian language Hindi by introducing a balanced corpus annotated with the sen-
+timent classes, viz. positive, negative, and neutral. To show the effective usage of the dataset, we
+build several deep learning based models and establish them as the baselines for further research
+in this direction. Further, we propose two multi-task and multilingual models for sentiment
+analysis of code-mixed/monolingual and English languages. Both models are tailored for multi-
+tasking, transferring the knowledge between code-mixed/monolingual and English sentiment
+tasks.
+
+‘We introduce a new task to facilitate the research on code-mixed ABSA. We offer a bench-
+mark setup by creating a code-mixed Hinglish (i.e., mixing of Hindi and English) dataset for
+ABSA, which is annotated with aspect terms, their sentiment values (ABSA-Mix), aspect cate-
+gories, and their associated sentiment values (ACSA-Mix). To demonstrate the effective usage
+of the dataset, we develop several deep learning-based models for aspect term extraction and
+sentiment analysis and establish them as the baselines for further research in this direction. We
+solve aspect category detection (ACD) and aspect category based sentiment analysis (ACSA)
+tasks (collectively referred to as ACSA-Mix tasks) in the Seq2Seq framework, where natural
+language sentences are generated to represent the outputs that allow pre-trained language mod-
+els to be used effectively. Further, a multilingual multi-task joint learning framework is proposed
+that transfers knowledge between Hinglish (ACSA-Mix) and English (ACSA) tasks.
+
+We introduce a novel task called aspect based sentiment intensity analysis (ABSIA). An an-
+notated review corpus for ABSIA for the English language is introduced by labeling the bench-
+mark SemEval ABSA restaurant dataset with the seven (7) classes in a semi-supervised way.
+Further, we propose an effective technique for joint learning where ABSA is used as a sec-
+ondary task to assist the primary task, i.e., ABSIA. Further, we present a defence algorithm to
+enhance the robustness of code-mixed text classifiers using auditory information of words. We
+establish that our novel language modeling approach results in improved robustness towards ad-
+versarial attacks on code-mixed classification tasks. We also propose an attack algorithm for the
+ABSA task by exploiting the model explainability technique. Our proposed method generates
+adversarial samples for a given aspect, maintaining more semantic coherency. In addition, it
+can be generalized to low-resource languages, which are at high risk due to resource scarcity.
+We show the effectiveness of the proposed attack using automatic and human evaluation. Our
+method outperforms the state-of-the-art methods in perturbation ratio, success rate, and semantic
+coherence.",2024
+29,Harnessing ai for hate speech detection in social media landscapes,https://shodhganga.inflibnet.ac.in/handle/10603/689084,Prashant Kapil,"Hate Speech Detection, ICCPR, Artificial Neural Network, Multi-Task Learning, Meta Learning, Few-Shot Learning, Multimodal Feature, Auxiliary Data, Transformer, CNN, LSTM, BERT, Intra-User, Intra-User, UNITER, CLIP, Inter Annotator Agreement, Macro-F1, Weighted-F1, AUC-ROC, Exact Match, Hamming Loss xiv","Abstract
+
+ 
+
+ 
+
+With the advent of the internet and numerous social media platforms, citizens now have enor-
+mous opportunities to express and share their opinions on various societal and political issues.
+This phenomenal growth of the internet, social media networks, and messaging platforms provide
+plenty of opportunities for building intelligent systems, but these are also being heavily misused
+by certain groups who often disseminate offensive, racial, and hate speeches. Hate speech dete
+tion involves identifying language or content that incites hatred or violence towards individuals
+or groups based on characteristics like race, ethnicity, religion, or gender. The classifiers for posts
+can be unimodal, analyzing text alone, or multimodal, incorporating additional data like images
+or audio. Multimodal classifiers offer richer context, improving accuracy by capturing nuances
+that text alone might miss. Companies play a crucial role in developing and deploying such
+technology, balancing free expression with the responsibility to curb harmful content, thereby
+fostering safer online environments for all users. There are five contributing chapters focusing
+on unimodal and multimodal data for English, and Hindi.
+
+The first task to be solved as part of this dissertation is hate speech detection for English lan-
+guage utilizing unimodal input in the form of text. In this work, a deep multi-task learning
+(MTL) framework is proposed to leverage useful information from multiple related classifica
+tion tasks in order to improve the performance of the individual task. The proposed multi-task
+model is based on the shared-private scheme that assigns shared and private layers to capture
+s Experiments on the
+five datasets show that the proposed framework attains encouraging performance in terms of
+macro-F1 and weighted-F1.
+
+The second task of this thesis is designing hate speech classifier for Hindi. In this study, Hindi
+Hate Speech Dataset (HHSD) is created following a novel hierarchical fine-grained four-layer
+annotation approach. The top layer separates the posts into hateful and non-hateful categories.
+The second layer further categorises hateful posts into explicit hateful and implicit hateful. The
+third layer is the multilabel tagging of the post into topics, such as political, religion, racism, or
+sexism. The fourth layer involves the identification of the targeted named entity, either explicitly
+or implicitly. Additionally, a thorough evaluation of the data annotation schema for trustwor-
+thy annotation is provided. The HHSD is the largest multi-layer annotated corpora in Hindi
+compared with the existing multi-layer annotated data. Experiments on the dataset using the
+transformer-based approaches in multi-task learning (MTL) attain encouraging performances in
+accuracy and weighted-fl score.
+
+The third task of this dissertation is introducing a new dataset of Hindi-English code-mixed
+data (HECMD), which includes 9,357 Hindi-English code-mixed posts categorised as hateful or
+non-hateful. To address the hateful identification task, this study examines with (i) training
+and testing using in-domain data, (ii) zero-shot transfer learning, and (iii) few-shot learning
+based on meta-learning. The evaluation makes use of 22 datasets from the related domain in
+the shared-features and task-specific features from five classification
+
+English, Urdu, Bengali, and Hindi to participate in the transfer learning and meta-learning set-
+ting. The high-resource English data is translated and transliterated to obtain Devanagari and
+Romanized Hindi postings to augment the training set. The in-domain train-test and zero-shot
+transfer learning is carried out by experimenting with ten deep neural network models, includ-
+ing Convolutional Neural Network (CNN), Bidirectional Long Short-Term Memory (BiLSTM),
+Multilingual Bidirectional Encoder Representations from Transformers (M-BERT), Multilingual
+Representations for Indian Languages (MuRIL), Language-Agnostic BERT Sentence Embed-
+ding (LaBSE), Cross-lingual Model - Robustly Optimized BERT Pretraining Approach (XLM-
+RoBERTa), Indian Language BERT (IndicBERT), A Lite BERT (ALBERT), Bidirectional and
+Auto-Regressive Transformers (BART), and DistiIBERT, and the meta-learning-based methods
+such as Model agnostic meta-learning (MAML) and Meta training then meta-learning (MTM).
+The findings reveal the superiority of the meta learning methods in obtaining significant macro-
+F1 and weighted-F1 scores.
+
+The fourth task is three fold that leverages sentiment, emotion, and user-based information to
+solve the hate speech detection for English and Hindi. The first work proposes a CNN based
+MTL models to leverage information from multiple sources. The second work focusses on in-
+troducing a unique model that improves hate speech identification for the English language by
+utilising intra-user and inter-user-based information. The last part covers extensive experiments
+conducted by leveraging transformer encodings fused with lexicon features to obtain significant
+macro-F 1 and weighted-F1.
+
+The fifth and last task is designing hate classifier for multimodal data such as meme. In this
+work, a multi-task learning-based multimodal framework is designed for the detection of hateful
+memes by training four hateful meme data in a jointly fashion. This MTL framework consisting
+of Contrastive language-image pre-traing (CLIP), UNiversal Image-TExt Representation model
+(UNITER), and BERT trained jointly to transfer common knowledge by simultaneously training
+four memes data. The outcome demonstrates that the suggested method outperforms the uni-
+modal and multimodal based approaches on four multilingual benchmark datasets by attaining
+significant AUC-ROC, accuracy, and F1-score.",2024
+30,Designing security techniques for outsourced data in cloud storage services,https://shodhganga.inflibnet.ac.in/handle/10603/689099,Partha Sarathi Chakraborty,"Cloud storage service, Outsourced Data, Searchable Encryption, Verifiable Com- puting, Integrity Verification, Leakage Abuse Attacks, Blockchain","Abstract
+
+ 
+
+Tn recent years, cloud computing has gained widespread adoption and recognition as a versatile
+and powerful service platform. It allows users to offload their resource-intensive computations
+and data to the cloud server for efficient processing. Meanwhile, users prioritize the security and
+privacy of their sensitive data by encrypting it before outsourcing it to the cloud server. However,
+managing and performing basic data utilization operations such as searching and computing over
+these outsourced encrypted data is challenging. In addition, checking for any modification or
+erasing of data and verifying the data to ensure the integrity of these encrypted data is required.
+Nowadays, blockchain attracts the attention of academia and industry. Thus, it is necessary to
+review and examine the potential methods to manage and perform basic data operations over
+encrypted data, including investigating different threats of data leakages. This work proposes
+a set of techniques, including searching and computing over encrypted data and verifying data
+integrity. In addition, utilizing blockchain-based consensus mechanisms and smart contracts
+in the proposed schemes to establish trust, auditability, and accountability in cloud storage
+transactions helps to mitigate the risk of data breach
+
+We propose a blockchain-assisted privacy-preserving searchable public key encryption scheme
+(BASPED) using an inverted index, which supports incentives and verifies search results on the
+user end. Next, we propose two search schemes over outsourced data based on symmetric search-
+able encryption. The first scheme uses blockchain for multi-keyword fuzzy search over outsourced
+encrypted data (BSMFS). The second scheme leverages blockchain to facilitate secure outsourced
+database searches in the cloud storage (BASDB). The next work proposes a secure and efficient
+scheme for verifiable computation over outsourced encrypted data (SEVCOD). It combines the
+power of multivariate polynomial factorization and homomorphic encryption to enable public
+verification of the cloud server’s computation results, preserving the confidentiality of both data
+and results. It further improves the scheme by leveraging blockchain technology and verifying
+the computing results through smart contracts (SPVPC) to achieve fairness, transparency, and
+speed up the verification process. Furthermore, we propose a secure and efficient smart contract
+based privacy preserving data integrity verification mechanism (SESIV) for outsourced encrypted
+data with an incentive mechanism. Then, the scheme design extension accommodates the service
+for multiple data owners, facilitates batch auditing, and supports data dynamics. The incentive
+mechanism facilitates rewards for each 
+and unauthorized modifications.
+sful audit and fines players for forgery and compen-
+sation to the victim. Finally, our theoretical analysis guarantees the security and robustness of
+cach proposed scheme. The performance is evaluated experimentally and compared with existing
+state-of-the-art mechanisms to prove the effectiveness of each proposed mechanism.",2024
+31,Development of multiview machine learning models for disease causative agent and prognosis prediction,https://shodhganga.inflibnet.ac.in/handle/10603/689115,IIT Patna Scholar,"Protease cleavage site Prediction, Breast Cancer Prognosis Prediction, Multi Modality, Multi-view Features, Octapeptide Sequence, Protein, Gene Expression, Copy Num- ber Variation, microRNA Expression, DNA Methylation, Histopathological Whole Slide Image, Machine Learning, Deep Learning. xiv","Abstract
+
+ 
+
+ 
+
+The development of machine learning models for disease causative agent and prognosis prediction
+holds significant promise in healthcare research, aiming to assist medical professionals in making
+accurate predictions about disease progression. The doctor-patient ratio in India is 1:1,674, lower
+than the WHO recommended ratio of 1:1,000 reveals the necessity to computerized bio-medical
+Information processing using machine learning models. However, integrating diverse biomedical
+data and extracting meaningful insights from biomedical literature pose significant challenges.
+
+Motivated by this, our doctoral work explores two critical issues: HIV-1 protease cleavage
+site prediction and breast cancer survival prognosis prediction.
+
+The HIV-1 protease cleavage site prediction is crucial for addressing global public health
+concerns related to human immunodeficiency virus (HIV). The HIV protease (HIV PR) is the
+causative agent of acquired immune deficiency syndrome (AIDS). For the identification of new
+therapeutic targets of HIV PR, we introduce a novel majority voting ensemble framework based
+on multi-objective optimization (MOO) to enhance prediction accuracy and AUC values si-
+multaneously. Our framework achieves improved results by integrating outputs from diverse
+classifiers chosen through MOO. Additionally, we have studied advance cleavage site predic-
+tion by combining deep learning models like stacked autoencoders (SAE) and convolution neural
+networks (CNN) with ensemble techniques and multi-view feature extraction. Our approach em-
+ploys various feature extraction methods, including structural, physicochemical, and sequential
+features, extracted using stacked autoencoder (SAE) and convolutional neural network (CNN)
+architectures. These models reduce dimensionality while retaining critical information, leading
+to enhanced prediction accuracy.
+
+The second stream of work is the breast cancer prognosis prediction. Breast cancer is one of
+the most often found malignancies in women. For more focused treatment and disease manage-
+ment, a better prognosis for breast cancer is crucial. Several studies have already been conducted
+
+to accomplish this. While many studies rely on single modalities such as gene expression data
+
+to construct predictive models, the emergence of multimodal data introduces opportunities for a
+deeper exploration of breast cancer’s molecular aspects. Motivated by this, we employed a multi-
+modal graph convolutional network to predict human breast cancer prognosis using three input
+data modalities. Subsequently, we expanded the range of modalities and conducted extensive
+experiments for further investigation. Our findings highlight the beneficial impact of multi-view
+data integration on predictive model performance. Additionally, we address the challenge of dy-
+namic feature integration in breast cancer prognosis studies, enhancing the comprehensiveness
+and accuracy of our predictive models.
+
+Overall, our research contributes to the advancement of machine learning models for dis-
+ease prognosis prediction, offering insights and methodologies to aid medical decision-making
+
+processes and improve patient care outcomes.",2024
+32,Unraveling cyberbullying in code mixed languages,https://shodhganga.inflibnet.ac.in/handle/10603/689129,Lakshaman Kumar,"Multilingual QA, Code-Mixed Languages, Question Answering, Natural Language Processing","ABSTRACT
+High-temperature ceramic materials hold significant scientific and technological
+importance owing to their wide range of applications. The properties of these materials
+strongly depend on the crystal structure and morphologies, which can be modified by
+altering the processing conditions. The present work examines a novel aspect of shaping
+(via uniaxial pressing and pressureless sintering) in controlling and/or mitigating the
+tor)
+has been introduced for the first time. The consolidation factor is a type of induced strain
+in grain (of the sintered ceramic bodies) due to concomitant effect of shaping and heating
+which has a different origin than lattice strain. Studies have been made to illustrate the
+impact of this factor on the final changes of the ceramic and allied materials systems.
+Doped-ZrO , BaTiO , TiO , BaCO systems have been utilized for this study. To examine
+2 3 2 3
+the discrepancies (if any) of phase development due to shaping two standard modes of
+experiments have been carried out throughout the thesis work. One involves pressureless
+sintering of a uniaxially compacted pellet at a given temperature while for the second case,
+the same starting loose powder was heat treated (i.e., calcined) under identical sintering
+conditions (without any compaction treatment). Difference (if any) in the phase,
+microstructure, defect, etc. (under these two cases) were investigated primarily via X-ray
+diffraction (XRD), Rietveld refinement, field emission scanning electron microscopy
+(FESEM), transmission electron microscopy (TEM) and Raman spectroscopy, etc.
+In contrary to other dopants (e.g., MgO, Y O , Gd O ) at same level (4 mol.%), crystal
+2 3 2 3
+structure and microstructure of 4 mol.% calcia-doped zirconia (4CaSZ) depicted strong
+dependence on the consolidation factor. 4CaSZ sintered ceramic was stabilized in fully
+tetragonal phase (100%), while at the identical condition, the calcined powder had only
+30% tetragonal phase (rest being monoclinic). With ionic radii size difference (of dopant
+ion and Zr4+) above 30%, CaO-doped zirconia ceramics showed the effect most
+prominently. The factor was also dependent on the grain boundary mobility of dopants. The
+structural analysis further revealed that sintered ceramic exhibits a fully tetragonal phase
+when prepared with powder calcined at a temperature of 850 °C or below. The CaO-doped
+ZrO system depicted a strong dependence for size-dependent phase transition (between
+2
+tetragonal and the deleterious monoclinic phase) and strongly adhered to the criterion
+prescribed by Garvie. A mixed size of 4CaSZ powders was also examined for this purpose.
+Compared to the market-grade yttria-stabilized zirconia (3 and 4.4 mol.% Y O -doped
+2 3
+zirconia) system, superior properties (involving sinterability, toughness, thermal
+conductivity, etc.) were observed for this mixed grade powder calcined at different
+temperatures.
+The benefits of the consolidation factor were also shown for undoped ceramic systems (e.g.,
+TiO and BaTiO In the
+2 3
+absence of this consolidation factor, the undoped ceramic systems depicted many artefacts
+starting from issues with phase purity (i.e., the emergence of extra/new phases), imbalance
+with stoichiometry, generation of unwanted vacancies (via depletion of ions) etc.
+Among allied systems (e.g., alkaline earth metal carbonates), BaCO showed this effect
+3
+prominently. While the phase evolutions of the calcined powders align with standard
+JCPDS files, pellets exhibit peculiarities in XRD and Raman results, indicating either
+strong c-axis orientation or unusual intensity ratios. An easy compressible Ba O atomic
+arrangement along the C-axis paved the path for the orientation perpendicular to the (002)
+plane. The discrepancy in phase evolution was explained with respect to its difference in
+energy release mechanism. While the phase transformations in relation to pressure and/or
+temperature is well-known, the summary of all results from the present thesis suggest that
+the dependence of such phase changes with shaping/consolidation may also need relevant
+attention (wherever applicable) for future scientific understanding.",2024
