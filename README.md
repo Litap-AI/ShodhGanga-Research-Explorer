@@ -13,11 +13,7 @@
 An end-to-end data engineering and text mining system that centralizes, normalizes, and dynamically indexes PhD thesis abstracts from the **Indian Institute of Technology Patna (IIT Patna)** Computer Science department repository. The application integrates an optimized open-source distilled Transformer pipeline running fully locally, allowing researchers and recruiters to explore domain keywords and synthesize complex academic contexts into immediate executive summaries on demand.
 
 ---
-## Streamlit App Link
 
-https://shodhganga-research-explorer-iitpatna.streamlit.app/
-
----
 
 ## 📸 Application Dashboard Preview
 
@@ -27,6 +23,11 @@ The sidebar interface dynamically parses the multi-tag keywords array from the m
   <img src="dashboard.png" width="95%" alt="Main Dashboard Interface">
 </p>
 
+
+---
+## Streamlit App Link
+
+https://shodhganga-research-explorer-iitpatna.streamlit.app/
 
 ---
 
