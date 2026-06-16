@@ -40,7 +40,7 @@ The sidebar interface dynamically parses the multi-tag keywords array from the m
 
 ## 📁 Repository Structure
 
-```text
+
 📁 iitp-research-explorer/
 │
 ├── 📄 shodhganga_final_clean.csv    # Standardized 32-row master dataset asset (0 missing cells)
@@ -55,3 +55,4 @@ The sidebar interface dynamically parses the multi-tag keywords array from the m
 
 ## ✍🏻 Author
 Rohit Patil
+---
