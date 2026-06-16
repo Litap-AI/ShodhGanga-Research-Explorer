@@ -61,10 +61,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Then open the local URL shown in the terminal, usually:
+Then open the URL shown in the terminal, usually:
 
 ```text
-http://localhost:8501
+https://shodhganga-research-explorer-iitpatna.streamlit.app/
 ```
 
 ## Summary Modes
