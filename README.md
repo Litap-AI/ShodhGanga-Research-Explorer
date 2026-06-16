@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="YOUR_STREAMLIT_COMMUNITY_CLOUD_URL_HERE" target="_blank">
-    <img src="https://static.streamlit.io/badges/streamlit_badge.svg" alt="Deploy Live App" height="35">
+    <img src="https://shodhganga-research-explorer-iitpatna.streamlit.app/" alt="Deploy Live App" height="35">
   </a>
   &nbsp;
   <a href="https://www.iitp.ac.in/" target="_blank">
@@ -52,5 +52,6 @@ The sidebar interface dynamically parses the multi-tag keywords array from the m
 └── 📄 README.md                     # Project portfolio presentation documentation
 
 ---
-## Author
+
+## ✍🏻 Author
 Rohit Patil
