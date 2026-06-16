@@ -1,10 +1,6 @@
 # 🎓 IIT Patna - ShodhGanga Research Explorer
 
 <p align="left">
-  <a href="YOUR_STREAMLIT_COMMUNITY_CLOUD_URL_HERE" target="_blank">
-    <img src="https://shodhganga-research-explorer-iitpatna.streamlit.app/" alt="Deploy Live App" height="35">
-  </a>
-  &nbsp;
   <a href="https://www.iitp.ac.in/" target="_blank">
     <img src="https://img.shields.io/badge/🏛️%20IIT%20Patna-Official%20Portal-1e3a8a?style=for-the-badge" alt="IIT Patna Portal" height="35">
   </a>
@@ -15,6 +11,11 @@
 </p>
 
 An end-to-end data engineering and text mining system that centralizes, normalizes, and dynamically indexes PhD thesis abstracts from the **Indian Institute of Technology Patna (IIT Patna)** Computer Science department repository. The application integrates an optimized open-source distilled Transformer pipeline running fully locally, allowing researchers and recruiters to explore domain keywords and synthesize complex academic contexts into immediate executive summaries on demand.
+
+---
+## Streamlit App Link
+
+https://shodhganga-research-explorer-iitpatna.streamlit.app/
 
 ---
 
@@ -39,7 +40,7 @@ The sidebar interface dynamically parses the multi-tag keywords array from the m
 ---
 
 ## 📁 Repository Structure
-
+``` text
 
 📁 iitp-research-explorer/
 │
@@ -50,7 +51,7 @@ The sidebar interface dynamically parses the multi-tag keywords array from the m
 ├── 📄 dashboard.png                 # App interface preview screenshot asset
 ├── 📄 summary.png                   # AI text summary preview screenshot asset
 └── 📄 README.md                     # Project portfolio presentation documentation
-
+```
 ---
 
 ## ✍🏻 Author
