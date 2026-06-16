@@ -1,5 +1,14 @@
 # IIT Patna ShodhGanga Research Explorer
 
+## 📸 Application Preview
+
+### 🔍 Interactive Filters & Topic Discovery
+![Main Dashboard Interface](dashboard.png)
+
+# 🎓 IIT Patna - ShodhGanga Research Explorer
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge.svg)](https://share.streamlit.io/)
+[![Python Version](https://img.shields.io/badge/Python-3.9+-green.svg)](https://www.python.org/)
 A Streamlit app for exploring IIT Patna PhD thesis records from a local ShodhGanga CSV dataset.
 
 The app lets you:
