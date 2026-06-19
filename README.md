@@ -54,7 +54,12 @@ https://shodhganga-research-explorer-iitpatna.streamlit.app/
 └── 📄 README.md                     # Project portfolio presentation documentation
 ```
 ---
+## License 
+Copyright © 2026 rohitmanikraopatil.com
+
+---
 
 ## ✍🏻 Author
 Rohit Patil
+
 ---
